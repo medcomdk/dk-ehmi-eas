@@ -3,13 +3,13 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: dk.ehmi.eds
-canonical: http://medcomehmi.dk/ig/dk-ehmi-eds
+id: dk.ehmi.eas
+canonical: http://medcomehmi.dk/ig/dk-ehmi-eas
 name: EHMI EDS IG
-title: "EHMI Delivery Status (EDS)"
-description: The EHMI Delivery Status (EDS)
+title: "EHMI Addressing Service (EAS)"
+description: The EHMI Addressing Service (EAS)
 status: draft # draft | active | retired | unknown
-version: 0.9.0
+version: 0.3.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -82,7 +82,7 @@ menu:
   Home: index.html
 #  Table of Contents: toc.html
   Profiles: profiles.html
-  Extensions: extensions.html
+#  Extensions: extensions.html
   Artifacts: artifacts.html
   Downloads: downloads.html
   Terminology: terminology.html

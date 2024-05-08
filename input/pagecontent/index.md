@@ -1,8 +1,8 @@
-# EHMI Delivery Status (EDS)
+# EHMI Addressing Service (EAS)
 
 <br/>
 
-The EHMI Delivery Status (EDS) Implementation Guide is a Content Profile that defines some basic and reusable logging patterns based on the FHIR AuditEvent Resource, that is used between an EDS device client and the EDS server. 
+The EHMI Addressing Service (EAS) Implementation Guide is a Content Profile that defines some basic and reusable logging patterns based on the FHIR AuditEvent Resource, that is used between an EDS device client and the EDS server. 
 
 EDS is inspired by IHE Basic Audit Log Patterns (IHE BALP) Implementation Guide, which is a Content Profile that defines some basic and reusable AuditEvent patterns. 
 
@@ -10,7 +10,7 @@ A focus is on enabling Privacy centric AuditEvent logs that hold well-formed ind
 
 <br/>
 
-![EHMI Delivery Status (EDS) (DA)](./eds1_1100x551.png "EHMI Delivery Status (EDS) (DA)")
+![EHMI Addressing Service (EAS) (DA)](./eds1_1100x551.png "EHMI Addressing Service (EAS) (DA)")
 
 <br/>
 
