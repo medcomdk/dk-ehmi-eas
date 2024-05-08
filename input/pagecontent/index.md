@@ -2,27 +2,25 @@
 
 <br/>
 
-The EHMI Addressing Service (EAS) Implementation Guide is a Content Profile that defines some basic and reusable logging patterns based on the FHIR AuditEvent Resource, that is used between an EDS device client and the EDS server. 
+The EHMI Addressing Service (EAS) Implementation Guide is a Content Profile that defines some basic and reusable logging patterns based on the FHIR AuditEvent Resource, that is used between an EAS device client and the EAS server. 
 
-EDS is inspired by IHE Basic Audit Log Patterns (IHE BALP) Implementation Guide, which is a Content Profile that defines some basic and reusable AuditEvent patterns. 
-
-A focus is on enabling Privacy centric AuditEvent logs that hold well-formed indication of message communication around a Patient, when they are the subject of messaging being recorded on the EDS Server. 
+A focus is on enabling Privacy centric AuditEvent logs that hold well-formed indication of message communication around a Patient, when they are the subject of messaging being recorded on the EAS Server. 
 
 <br/>
 
-![EHMI Addressing Service (EAS) (DA)](./eds1_1100x551.png "EHMI Addressing Service (EAS) (DA)")
+![EHMI Addressing Service (EAS) (DA)](./EAS1_1100x551.png "EHMI Addressing Service (EAS) (DA)")
 
 <br/>
 
-EDS is using some basic abbreviations throughout the specification, the most common are:
+EAS is using some basic abbreviations throughout the specification, the most common are:
 
 - EUA = End USer Application
 - MSH = Message Service Handler
 - AP = Access Point (eDelivery)
 
-EDS is used in the EHMI messaging flow like above
+EAS is used in the EHMI messaging flow like above
 
-EDS is producsed in different scenarios basically as shown below.
+EAS is producsed in different scenarios basically as shown below.
 
 <br/>
 

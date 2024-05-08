@@ -17,7 +17,7 @@ skipPrompts=false
 FORCE=false
 
 if ! type "curl" > /dev/null; then
-	echo "ERROR: Script needs curl to download latest IG Publisher. Please install curl."
+	echo "ERROR: Script neEAS curl to download latest IG Publisher. Please install curl."
 	exit 1
 fi
 

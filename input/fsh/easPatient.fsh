@@ -34,7 +34,7 @@ Parent: Identifier
 Description: 
 """
 UUIDv5 masked CPR-identifier making the cpr a UUID
-Patientens CPR nummer maskeres i visninger på samme måde som sundhedsarbejders identiteter er maskeret af SDS, med UUID version 5 . Namespace for maskering med UUID version 5 er jf. https://www.ietf.org/rfc/rfc4122.txt Appendix C, uuid_t NameSpace_OID, ns:OID ('""'6ba7b812-9dad-11d1-80b4-00c04fd430c8'""'). Dette er også anvendt af SDS på NSP ifm. Beregning af pseudonymer (se https://www.nspop.dk/pages/viewpage.action?pageId=220266653#id-3.(C)Pseudonymiseringidatakildertilborgervendtebrugergr%C3%A6nsefladesystemer-C-Beregningafpseudonymer)
+Patientens CPR nummer maskeres i visninger på samme måde som sundhEASarbejders identiteter er maskeret af SDS, med UUID version 5 . Namespace for maskering med UUID version 5 er jf. https://www.ietf.org/rfc/rfc4122.txt Appendix C, uuid_t NameSpace_OID, ns:OID ('""'6ba7b812-9dad-11d1-80b4-00c04fd430c8'""'). Dette er også anvendt af SDS på NSP ifm. Beregning af pseudonymer (se https://www.nspop.dk/pages/viewpage.action?pageId=220266653#id-3.(C)Pseudonymiseringidatakildertilborgervendtebrugergr%C3%A6nsefladesystemer-C-Beregningafpseudonymer)
 
 Input til generatoren skal være patients cpr nummer.
 CPR nummeret kan være af typen:
