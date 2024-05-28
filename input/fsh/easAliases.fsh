@@ -1,3 +1,10 @@
+// EER Aliases
+Alias: $EerSOROrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-type
+Alias: $EerSOROrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-type-valueset
+
+Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/dk-medcom-message-definition-uri
+Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/dk-medcom-message-definition-uri-valueset
+
 /*
 Alias: $EhmiDeliveryStatusTypes = http://medcomehmi.dk/ig/dk-ehmi-EAS/CodeSystem/ehmi-delivery-status-types
 Alias: $EhmiDeliveryStatusTypesValueSet = http://medcomehmi.dk/ig/dk-ehmi-EAS/ValueSet/EhmiDeliveryStatusTypesValueSet
@@ -47,9 +54,6 @@ Alias: $AuditEventSubTypes = http://hl7.org/fhir/restful-interaction
 Alias: $AuditEventSubTypesValueSet = http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
 Alias: $AuditEventTypes = http://terminology.hl7.org/CodeSystem/audit-event-type
 Alias: $AuditEventTypes2 = http://dicom.nema.org/resources/ontology/DCM
-// EER Aliases
-Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-medcom-message-definition-uri
-Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-medcom-message-definition-uri-valueset
 /*
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 

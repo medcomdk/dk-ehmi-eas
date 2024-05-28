@@ -2,43 +2,31 @@
 
 <br/>
 
-The EHMI Addressing Service (EAS) Implementation Guide is a Content Profile that defines some basic and reusable logging patterns based on the FHIR AuditEvent Resource, that is used between an EAS device client and the EAS server. 
+The EHMI Addressing Service (EAS) Implementation Guide is a Search Profile that defines some basic and reusable search patterns based on the EER Resources. 
 
-A focus is on enabling Privacy centric AuditEvent logs that hold well-formed indication of message communication around a Patient, when they are the subject of messaging being recorded on the EAS Server. 
+In the first version of EAS it will expose these searches for clients in the healthcare domain:
+
+- getGP_SikrGrp1_1_getGPReceiverDatabyPatId
+    - GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-organization&Patient?Identifier.value=123&system=urn:oid:1.2.208.176.1.2
+
+- getGP_SikrGrp1_1_getGPReceiverDatabyGPId
+    - GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-organization&Patient?Identifier.value=123&system=urn:oid:1.2.208.176.1.2
+
+EAS will implement searches in authoritative sources like 
+
+- "Sikrede"
+- SOR
+- EER
+ 
+ ## Background searches implemented for "Sikrede"
+ 
+ -
+
 
 <br/>
 
+<>
 ![EHMI Addressing Service (EAS) (DA)](./EAS1_1100x551.png "EHMI Addressing Service (EAS) (DA)")
 
 <br/>
 
-EAS is using some basic abbreviations throughout the specification, the most common are:
-
-- EUA = End USer Application
-- MSH = Message Service Handler
-- AP = Access Point (eDelivery)
-
-EAS is used in the EHMI messaging flow like above
-
-EAS is producsed in different scenarios basically as shown below.
-
-<br/>
-
-1. When a message is created in an EUA (The user has hit the "sent button") or a SBDH_Ack has been initiated in a MSH
-2. When the message is actually sent by the EUA
-3. When the message is received by the sending MSH
-4. When the message is actually sent again by the sending MSH
-5. When the message is received by the sending AP
-6. When the message is actually sent again by the sending AP
-7. When the message is received by the receiving AP
-8. When the message is actually sent again by the receiving AP
-9. When the message is received by the receiving MSH
-10. When the message is actually sent again by the receiving MSH
-11. When the message is received by the receiving EUA
-12. When the message is actually finalized by the receiving EUA
-
-<br/>
-
-As the EUA, MSH and AP can be built and hosted together in various ways, this is just the maximum possible scenarios, and the real scenarios will most likely by less than shown here.
-
-<br/>
