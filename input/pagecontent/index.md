@@ -20,7 +20,7 @@ In the first version of EAS it will expose these searches for clients in the hea
 
 <img src="./3_EHMI_Sundhedsadresseringsservice_1315x551.png" alt="EHMI Addressing Service (EAS) (DA)" width="1100">
 
-<br/>
+---
 
 ### getGP_SikrGrp1_1_getGPReceiverDatabyPatId
 
@@ -32,7 +32,7 @@ In the first version of EAS it will expose these searches for clients in the hea
 
 <img src="./getGP_SikrGrp1_1_getGPReceiverDatabyPatId.png" alt="getGP_SikrGrp1_1_getGPReceiverDatabyPatId" width="1100">
 
-<br/>
+---
 
 ### getGP_SikrGrp1_2_getGPReceiverDatabyGPId
 
@@ -44,7 +44,7 @@ In the first version of EAS it will expose these searches for clients in the hea
 
 <img src="./getGP_SikrGrp1_2_getGPReceiverDatabyGPId.png" alt="getGP_SikrGrp1_2_getGPReceiverDatabyGPId" width="1100">
 
-<br/>
+---
 
 ### getGP_SikrGrp2_1_getGPReceiverDatabyPostalCode
 
@@ -56,7 +56,7 @@ In the first version of EAS it will expose these searches for clients in the hea
 
 <img src="./getGP_SikrGrp2_1_getGPReceiverDatabyPostalCode.png" alt="getGP_SikrGrp2_1_getGPReceiverDatabyPostalCode" width="1100">
 
-<br/>
+---
 
 ### getReceiverData_1_getReceiverDatabySORId
 
@@ -66,7 +66,7 @@ In the first version of EAS it will expose these searches for clients in the hea
 
 <img src="./getReceiverData_1_getReceiverDatabySORId.png" alt="getReceiverData_1_getReceiverDatabySORId" width="1100">
  
-<br/>
+---
 
 ### getReceiverData_2_getReceiverDataByMessageType&PostalCode
 
@@ -78,4 +78,4 @@ In the first version of EAS it will expose these searches for clients in the hea
 
 <img src="./getReceiverData_2_getReceiverDataByMessageType&PostalCode.png" alt="getReceiverData_2_getReceiverDataByMessageType&PostalCode" width="1100">
 
-<br/>
+---
