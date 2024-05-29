@@ -80,6 +80,12 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Use cases:
+    Use case 1: index-uc1.html
+    Use case 2: index-uc2.html
+    Use case 3: index-uc3.html
+    Use case 4: index-uc4.html
+    Use case 5: index-uc5.html
 #  Table of Contents: toc.html
   Profiles: profiles.html
 #  Extensions: extensions.html
