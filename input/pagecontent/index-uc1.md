@@ -10,3 +10,33 @@
 
 <img src="./3_1_getGP_SikrGrp1_1_getGPReceiverDatabyPatId.png" alt="3_1_getGP_SikrGrp1_1_getGPReceiverDatabyPatId" width="1100">
 
+## getGP_SikrGrp1_1_getGPReceiverDatabyPatId error use cases
+
+- getGP_SikrGrp1_1_getGPReceiverDatabyPatId - PatId doesn't exist
+- getGP_SikrGrp1_1_getGPReceiverDatabyPatId - SOR-Information doesn't exist
+- getGP_SikrGrp1_1_getGPReceiverDatabyPatId - EER-ReceiverData doesn't exist
+
+
+### getGP_SikrGrp1_1_getGPReceiverDatabyPatId - PatId doesn't exist
+
+
+<br/>
+
+<img src="./3_1a_getGP_SikrGrp1_1_getGPReceiverDatabyPatId.png" alt="3_1a_getGP_SikrGrp1_1_getGPReceiverDatabyPatId" width="1100">
+
+
+### getGP_SikrGrp1_1_getGPReceiverDatabyPatId - SOR-Information doesn't exist
+
+
+<br/>
+
+<img src="./3_1b_getGP_SikrGrp1_1_getGPReceiverDatabyPatId.png" alt="3_1b_getGP_SikrGrp1_1_getGPReceiverDatabyPatId" width="1100">
+
+
+### getGP_SikrGrp1_1_getGPReceiverDatabyPatId - EER-ReceiverData doesn't exist
+
+
+<br/>
+
+<img src="./3_1c_getGP_SikrGrp1_1_getGPReceiverDatabyPatId.png" alt="3_1c_getGP_SikrGrp1_1_getGPReceiverDatabyPatId" width="1100">
+
