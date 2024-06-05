@@ -8,5 +8,5 @@
 
 <br/>
 
-<img src="./getGP_SikrGrp1_1_getGPReceiverDatabyPatId.png" alt="getGP_SikrGrp1_1_getGPReceiverDatabyPatId" width="1100">
+<img src="./3_1_getGP_SikrGrp1_1_getGPReceiverDatabyPatId.png" alt="3_1_getGP_SikrGrp1_1_getGPReceiverDatabyPatId" width="1100">
 

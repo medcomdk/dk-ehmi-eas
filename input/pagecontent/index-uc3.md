@@ -8,5 +8,5 @@
 
 <br/>
 
-<img src="./getGP_SikrGrp2_1_getGPReceiverDatabyPostalCode.png" alt="getGP_SikrGrp2_1_getGPReceiverDatabyPostalCode" width="1100">
+<img src="./3_3_getGP_SikrGrp2_1_getGPReceiverDatabyPostalCode.png" alt="3_3_getGP_SikrGrp2_1_getGPReceiverDatabyPostalCode" width="1100">
 

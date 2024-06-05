@@ -6,5 +6,5 @@
 - This search will produce a [MedComMessagingOrganization](http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-organization) as a response
 - EAS will in order to produce this response run through a sequence of calls from 
 
-<img src="./getReceiverData_1_getReceiverDatabySORId.png" alt="getReceiverData_1_getReceiverDatabySORId" width="1100">
+<img src="./3_4_getReceiverData_1_getReceiverDatabySORId.png" alt="3_4_getReceiverData_1_getReceiverDatabySORId" width="1100">
  

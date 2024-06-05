@@ -8,5 +8,5 @@
 
 <br/>
 
-<img src="./getReceiverData_2_getReceiverDataByMessageType&PostalCode.png" alt="getReceiverData_2_getReceiverDataByMessageType&PostalCode" width="1100">
+<img src="./3_5_getReceiverData_2_getReceiverDataByMessageType&PostalCode.png" alt="3_5_getReceiverData_2_getReceiverDataByMessageType&PostalCode" width="1100">
 
