@@ -12,7 +12,7 @@ Description: "StructureMap between MedComs FHIR message names and SOREDI message
 *   url = canonical(http://medcomfhir.dk/ig/core/StructureDefinition/medcom-core-organization)
 *   mode = #source
 * structure
-*   url = canonical(http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-organization)
+*   url = canonical(https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html)
 *   mode = #target
 */
 
