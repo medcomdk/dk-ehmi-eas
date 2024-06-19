@@ -1,11 +1,11 @@
-Instance: eas.SikrGrp1-getReceivingOrganizationByGPId
+Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId-error1
 InstanceOf: OperationDefinition
-Description: "EAS SikrGrp1 getReceivingOrganizationByGPId"
+Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId"
 Usage: #definition
-* url = "http://easbase.eas.dk/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByGPId"
+* url = "http://easbase.eas.dk/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByPatientId"
 * version = "0.1.0"
-* name = "EAS SikrGrp1 getReceivingOrganizationByGPId"
-* title = "EAS SikrGrp1 getReceivingOrganizationByGPId"
+* name = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1"
+* title = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1"
 * status = #draft
 * kind = #query
 * date = "2024-06-01T00:00:00+01:00"
@@ -17,23 +17,23 @@ Usage: #definition
 * description = "GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Patient?Identifier.value=[Patient_Identifier]&system=urn:oid:1.2.208.176.1.2
 This search will produce a MedComMessagingOrganization as a response
 EAS will in order to produce this response run through a sequence of calls from"
-* code = #getSikrGrp1_getReceivingOrganizationByGPId
-* comment = "eas_SikrGrp1_getReceivingOrganizationByGPId return MedComMessagingOrganization"
+* code = #getSikrGrp1_getReceivingOrganizationByPatientId
+* comment = "eas_SikrGrp1_getReceivingOrganizationByPatientId return MedComMessagingOrganization"
 * resource = #CapabilityStatement
 * system = true
 * type = false
 * instance = true
-* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasDkCoreOrganization"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMedComMessagingOrganization"
+* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasDkCorePatient"
+* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasOperationOutcome"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1
 * parameter[=].max = "1"
-* parameter[=].documentation = "submitting the Id of the Patient's GP would evoke this search operation"
-* parameter[=].type = #Organization
+* parameter[=].documentation = "submitting the Patients Id would evoke this search operation"
+* parameter[=].type = #Patient
 * parameter[+].name = #return
 * parameter[=].use = #out
 * parameter[=].min = 0
 * parameter[=].max = "1"
-* parameter[=].documentation = "The response is a MedComMessagingOrganization corresponding to the GP of the Patient"
-* parameter[=].type = #Organization
+* parameter[=].documentation = "The response is an OperationOutcome due to non-existing PatientId"
+* parameter[=].type = #OperationOutcome

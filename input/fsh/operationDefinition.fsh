@@ -1,5 +1,5 @@
 /*
-Profile: SikrGrp1_1_getGPReceiverDatabyPatId
+Profile: SikrGrp1_1_getReceivingOrganizationByPatId
 Title: "MedCom Messaging Organization Query"
 Status: active
 Kind: operation
