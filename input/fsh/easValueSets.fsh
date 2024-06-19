@@ -9,6 +9,7 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^experimental = false
 * ^caseSensitive = true
 * #ehmiMessaging "EHMI message events"
+
 ValueSet: EhmiDeliveryStatusTypesValueSet
 Id: ehmi-delivery-status-types-valueset
 Title: "EHMI Addressing Service (EAS) Types ValueSet"
@@ -21,6 +22,9 @@ Description: "ValueSet containing codes for EHMI Addressing Service (EAS)Types"
 * include codes from system $AuditEventTypes
 * include codes from system http://hl7.org/fhir/restful-interaction
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
+*/
+
+/*
 CodeSystem: EhmiDeliveryStatusSubTypes
 Id: ehmi-delivery-status-sub-types
 Title: "EHMI Addressing Service (EAS) SubTypes CS"
