@@ -20,7 +20,7 @@ Test adding more text here
 
 <img src="./3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;right-margin:20px;bottom-margin:20px;top-margin:20px">
 
-## error use cases 1a - PatientId doesn't exist
+## error use cases 
 
 - error use case 1 - PatId doesn't exist
 - error use case 2 - SOR-Information doesn't exist
