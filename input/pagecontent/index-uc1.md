@@ -8,9 +8,15 @@
 
 This is basically conforming to this OperationDefinition: <a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId</a>
 
-<img src="./3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" width="1100">
+Test adding more text here
 
+Test adding more text here
 
+Test adding more text here
+
+Test adding more text here
+
+<img src="./3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;right-margin:20px;bottom-margin:20px;top-margin:20px">
 
 ## getGP_SikrGrp1_1_getReceivingOrganizationByPatId error use cases
 
@@ -20,13 +26,13 @@ This is basically conforming to this OperationDefinition: <a href="OperationDefi
 
 ### error use case 1 -  getGP_SikrGrp1_1_getReceivingOrganizationByPatId - PatId doesn't exist
 
-<img src="./3_1a_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1a_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" width="1100"/>
+<img src="./3_1a_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1a_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;right-margin:20px;bottom-margin:20px;top-margin:20px">
 
 ### error use case 2 -  getGP_SikrGrp1_1_getReceivingOrganizationByPatId - SOR-Information doesn't exist
 
-<img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" width="1100">
+<img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;right-margin:20px;bottom-margin:20px;top-margin:20px">
 
 ### error use case 3 -  getGP_SikrGrp1_1_getReceivingOrganizationByPatId - EER-ReceiverData doesn't exist
 
-<img src="./3_1c_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1c_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" width="1100">
+<img src="./3_1c_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1c_getGP_SikrGrp1_1_getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;right-margin:20px;bottom-margin:20px;top-margin:20px">
 
