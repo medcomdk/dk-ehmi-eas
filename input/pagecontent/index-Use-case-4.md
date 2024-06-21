@@ -6,7 +6,7 @@
 - This search will produce a <a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a> as a response
 - EAS will in order to produce this response run through a sequence of calls from 
 
-This is basically conforming to this OperationDefinition: <a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId</a> 
+This is basically conforming to this OperationDefinition: <a href="OperationDefinition-eas.getReceivingOrganizationBySORId.html">OperationDefinition-eas.getReceivingOrganizationBySORId</a> 
 
 <img src="./3_4_getReceiverData_1_getReceivingOrganizationBySORId.png" alt="3_4_getReceiverData_1_getReceivingOrganizationBySORId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
  
