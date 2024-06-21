@@ -14,9 +14,9 @@ EAS will implement searches in authoritative sources like
 
 In the first version of EAS it will expose these searches for clients in the healthcare domain:
 
-- [Use case 1 - getgp_sikrgrp1_1_getReceivingOrganizationBypatid](./index-uc1.html)
-- [Use case 2 - getgp_sikrgrp1_2_getReceivingOrganizationBygpid](./index-uc2.html)
-- [Use case 3 - getgp_sikrgrp2_1_getReceivingOrganizationBypostalcode](./index-uc3.html)
+- [Use case 1 - Get GP for a Patient by PatientId (Health Insurance Group 1)](./index-uc1.html)
+- [Use case 2 - Get GP for a Patient by GPId (Health Insurance Group 1)](./index-uc2.html)
+- [Use case 3 - Get possible GP for a Patient by PostalCodes (Health Insurance Group 2)](./index-uc3.html)
 - [Use case 4 - getreceiverdata_1_getReceivingOrganizationBySORID](./index-uc4.html)
 - [Use case 5 - getreceiverdata_2_getReceivingOrganizationByMessageType&Postalcode](./index-uc5.html)
 
