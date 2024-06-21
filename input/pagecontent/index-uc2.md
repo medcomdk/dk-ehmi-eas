@@ -1,6 +1,6 @@
 # EAS - version 1 - use case 2
 
-## getGP_SikrGrp1_2_getReceivingOrganizationByGPId
+## Get GP for a Patient by GPId (Health Insurance Group 1) (getGP_SikrGrp1_2_getReceivingOrganizationByGPId)
 
 - GET [EAS-base]/Organization?_profile=https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html&Patient?Identifier.value=123&system=urn:oid:1.2.208.176.1.2
 - This search will produce a <a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a> as a response
