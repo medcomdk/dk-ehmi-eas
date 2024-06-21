@@ -1,4 +1,4 @@
-Instance: eas.SikrGrp2-1-getReceivingOrganizationByPostalCode
+Instance: eas.getReceivingOrganizationByPostalCode
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp2 getReceivingOrganizationByPostalCode"
 Usage: #definition
