@@ -5,14 +5,5 @@
 Profile: EasDkCorePatient
 Parent: DkCorePatient
 // MedComCorePatient
-Description: "An example profile of the Patient resource."
-/* identifier contains 
-  maskedCPR 1..1
-* identifier[maskedCPR] only EhmiMaskedCPR
-  * ^short = "[DA] cpr-nummer, som det fremgår af CPR registeret, men maskeret med uuid ´v5, så det optræder som en uuid"
-//* Identifier[maskedCPR].value obeys uuid
-* identifier[maskedCPR].use = #secondary
-* identifier[maskedCPR].system = "urn:oid:1.2.208.176.1.200"
-//* identifier[maskedCPR].system = "urn:oid:1.2.208.176.1.2"
-* name 1..* MS
-*/
+Description: "EasDkCorePatient version of DkCorePatient"
+//* Identifier 1..1
