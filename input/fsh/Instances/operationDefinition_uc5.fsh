@@ -1,11 +1,11 @@
 Instance: eas.getReceivingOrganizationByMessageTypeAndPostalCode
 InstanceOf: OperationDefinition
-Description: "EAS getReceivingOrganizationByMessageType&PostalCode"
+Description: "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
 Usage: #definition
-* url = "http://easbase.eas.dk/OperationDefinition/getReceivingOrganizationByMessageType&PostalCode"
+* url = "http://easbase.eas.dk/OperationDefinition/getReceivingOrganizationByMessageTypeAndPostalCode"
 * version = "0.1.0"
-* name = "EAS getReceivingOrganizationByMessageType&PostalCode"
-* title = "EAS getReceivingOrganizationByMessageType&PostalCode"
+* name = "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
+* title = "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
 * status = #draft
 * kind = #query
 * date = "2024-06-01T00:00:00+01:00"
@@ -17,8 +17,8 @@ Usage: #definition
 * description = "GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Patient?Identifier.value=[Patient_Identifier]&system=urn:oid:1.2.208.176.1.2
 This search will produce a MedComMessagingOrganization as a response
 EAS will in order to produce this response run through a sequence of calls from"
-* code = #getReceivingOrganizationByMessageType&PostalCode
-* comment = "getReceivingOrganizationByMessageType&PostalCode return MedComMessagingOrganization"
+* code = #getReceivingOrganizationByMessageTypeAndPostalCode
+* comment = "getReceivingOrganizationByMessageTypeAndPostalCode return MedComMessagingOrganization"
 * resource = #CapabilityStatement
 * system = true
 * type = false
