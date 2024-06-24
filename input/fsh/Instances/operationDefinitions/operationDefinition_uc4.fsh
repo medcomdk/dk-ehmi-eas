@@ -4,7 +4,7 @@ Description: "EAS getReceivingOrganizationBySORId"
 Usage: #definition
 * url = "http://easbase.eas.dk/OperationDefinition/getReceivingOrganizationBySORId"
 * version = "0.1.0"
-* name = "EAS SikrGrp2 getReceivingOrganizationBySORId"
+* name = "EAS-SikrGrp2-getReceivingOrganizationBySORId"
 * title = "EAS SikrGrp2 getReceivingOrganizationBySORId"
 * status = #draft
 * kind = #query
