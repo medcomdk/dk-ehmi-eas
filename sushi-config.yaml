@@ -32,7 +32,7 @@ dependencies:
   dk.ehmi.terminology: current
   dk.ehmi.eer: current
   dk.ehmi.eds: current
-#  medcom.fhir.dk.ihe.xds.metadata: current
+  medcom.fhir.dk.ihe.xds.metadata: current
 
 #
 #
