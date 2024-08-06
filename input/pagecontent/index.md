@@ -22,5 +22,5 @@ In the first version of EAS it will expose these searches for clients in the hea
 
 <br/>
 
-<img src="./3_0_EHMI_Sundhedsadresseringsservice_1315x551.png" alt="EHMI Addressing Service (EAS) (DA)" width="100%">
+<img src="./EHMI Pixi - Addressing Service.png" alt="EHMI Addressing Service (EAS) (DA)" width="100%">
 
