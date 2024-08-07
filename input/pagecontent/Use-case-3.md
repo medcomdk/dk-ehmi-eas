@@ -1,6 +1,4 @@
-# 3
-
-## Use case 3 - Get possible GP for a Patient by PostalCodes (Health Insurance Group 2) (getGP_SikrGrp2_getReceivingOrganizationByPostalCode)
+# Get possible GP for a Patient by PostalCodes (Health Insurance Group 2)
 
 This use case concerns the search for the necessary message address metadata information (like the GLN number) of a general practitioner selected by the user. This is relevant for pa-tients in the National Danish health insurance group 2, and it involves two calls to EAS: First a list of general practitioners with given postal codes is obtained; Second the user selects one of these general practitioners and the necessary message address metadata information for this is retrieved. The sequence diagram is as follows:
 
@@ -15,19 +13,19 @@ The user selects a general practitioner from the returned list and calls EAS wit
 
 This is basically conforming to this OperationDefinition: <a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId</a> 
 
-## error use cases 
+# Error use cases for use case 3
 
 - error use case 3a - PostalCode does not exist
 - error use case 3b - SOR-Information doesn't exist
 - error use case 3c - EER-ReceiverData doesn't exist
 
-### error use case 3a - PostalCode doesn't exist
+### Error use case 3a - PostalCode doesn't exist
 
 Should an error occur while trying to obtain the list of general practitioners with the given postal codes, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram:
 
 __*TBD: New Sequencediagram *__
 
-### error use case 3b - SOR-Information doesn't exist
+### Error use case 3b - SOR-Information doesn't exist
 
 __*TBD: Change Sequencediagram and text accordingly*__
 
@@ -35,7 +33,7 @@ Should an error occur when obtaining relevant organization information associate
 
 <img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
-### error use case 3c - EER-ReceiverData doesn't exist
+### Error use case 3c - EER-ReceiverData doesn't exist
 
 Finally, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illus-trated by:
 

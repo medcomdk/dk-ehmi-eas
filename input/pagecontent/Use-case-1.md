@@ -22,19 +22,19 @@ With this and the type of message to be sent, the EHMI Endpoint Register (EER) i
 - error use case 1b - SOR-Information doesn't exist
 - error use case 1c - EER-ReceiverData doesn't exist
 
-### error use case 1a - PatId doesn't exist
+### Error use case 1a - PatId doesn't exist
 
 Should an error occur during the validation of the patient identification, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram: (margin:20px 40px 40px)
 
 <img src="./3_1a_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1a Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
 
-### error use case 1b - SOR-Information doesn't exist
+### Error use case 1b - SOR-Information doesn't exist
 
 Similarly, should an error occur when obtaining the organization id (and other relevant organ-ization information), from the id of the patient’s general practitioner, an error response stat-ing that is packed and returned to the caller of EAS as illustrated in the following diagram:
 
 <img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
 
-### error use case 1c - EER-ReceiverData doesn't exist
+### Error use case 1c - EER-ReceiverData doesn't exist
 
 Finally, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illus-trated by:
 

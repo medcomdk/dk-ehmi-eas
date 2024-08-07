@@ -1,6 +1,4 @@
-# 4
-
-## getReceiverData_1_getReceivingOrganizationBySORId
+# Get ReceivingOrganization by SORID
 
 This use case is virtually identical to the second part of use case 3. From a list in his/her local system, the user selects an organization, by id, and then calls EAS to retrieve the necessary message address metadata information for this. The sequence diagram for this is as follows:
 
@@ -14,12 +12,12 @@ Initially, when EAS receives this request, the given organization id is validate
 
 This is basically conforming to this OperationDefinition: <a href="OperationDefinition-eas.getReceivingOrganizationBySORId.html">OperationDefinition-eas.getReceivingOrganizationBySORId</a> 
 
-## error use cases 
+# Error use cases for use case 4
 
 - error use case 4a - SOR-Information doesn't exist
 - error use case 4b - EER-ReceiverData doesn't exist
 
-### error use case 4a - SOR-Information doesn't exist
+### Error use case 4a - SOR-Information doesn't exist
 
 Should an error occur while validating the given organization id or obtaining the relevant or-ganization information associated with the organization id, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram:
 
@@ -27,7 +25,7 @@ __*TBD: Change Sequencediagram*__
 
 <img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
-### error use case 4b - EER-ReceiverData doesn't exist
+### Error use case 4b - EER-ReceiverData doesn't exist
 
 Finally, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illustrated by:
 
