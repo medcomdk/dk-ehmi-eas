@@ -12,7 +12,7 @@ Once EAS has received the request, the organization id (and other relevant organ
 
 This is basically conforming to this OperationDefinition: <a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId</a>
 
-# Error use cases for use case 1
+# Error use cases for use case 2
 
 - error use case 2a - SOR-Information doesn't exist
 - error use case 2b - EER-ReceiverData doesn't exist
