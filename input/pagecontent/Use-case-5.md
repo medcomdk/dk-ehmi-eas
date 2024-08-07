@@ -1,4 +1,4 @@
-# EAS - version 1 - use case 5
+# 5
 
 ## Get ReceivingOrganization by MessageType and Postalcode (getReceivingOrganizationByMessageTypeAndPostalCode)
 

@@ -1,4 +1,4 @@
-# EAS - version 1 - use case 4
+# 4
 
 ## getReceiverData_1_getReceivingOrganizationBySORId
 

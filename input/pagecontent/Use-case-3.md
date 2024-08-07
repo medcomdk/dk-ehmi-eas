@@ -1,4 +1,4 @@
-# EAS - version 1 - use case 3
+# 3
 
 ## Use case 3 - Get possible GP for a Patient by PostalCodes (Health Insurance Group 2) (getGP_SikrGrp2_getReceivingOrganizationByPostalCode)
 

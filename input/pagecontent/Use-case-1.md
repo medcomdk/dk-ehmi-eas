@@ -1,8 +1,4 @@
-# EAS - version 1 - use case 1 - Get GP metadata for Health Insurance Group
-
-## Get GP for a Patient (Health Insurance Group 1)
-
-(Get GP metadata for Health Insurance Group 1 1_getReceivingOrganizationByPatId)
+# Get GP for a Patient (Health Insurance Group 1)
 
 - GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Patient?Identifier.value=[Patient_Identifier]&system=urn:oid:1.2.208.176.1.2
 - This search will produce a <a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a> as a response

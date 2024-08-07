@@ -1,6 +1,4 @@
-# EAS - version 1 - use case 2
-
-## Get GP for a Patient by GPId (Health Insurance Group 1) (getGP_SikrGrp1_2_getReceivingOrganizationByGPId)
+# Get GP for a Patient by GPId (Health Insurance Group 1)
 
 This use case concerns the search for the necessary message address metadata information (like the GLN number) of a general practitioner based on the identification of the general practitioner. This is relevant, for example, when the general practitioner of a patient in the National Danish health insurance group 1 is already known. The sequence diagram for this case is as follows:
 
