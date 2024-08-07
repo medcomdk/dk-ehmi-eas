@@ -21,7 +21,7 @@ This is basically conforming to this OperationDefinition: <a href="OperationDefi
 
 Should an error occur when obtaining the organization id (and other relevant organization information), from the id of the patient’s general practitioner, an error response stating that is packed and returned to the caller of EAS as illustrated in the following diagram:
 
-<img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_2a_getGP_SikrGrp1_2_getReceivingOrganizationByGPId.png" alt="3_2a Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByGPId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 2b - EER-ReceiverData doesn't exist
 
