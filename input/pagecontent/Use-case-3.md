@@ -31,11 +31,11 @@ __*TBD: Change Sequencediagram and text accordingly*__
 
 Should an error occur when obtaining relevant organization information associated with the organization id, an error response stating that is packed and returned to the caller of EAS as illustrated in the following diagram:
 
-<img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_3b_getGP_SikrGrp2_1_getReceivingOrganizationByPostalCode.png" alt="3_3b get GP SikrGrp2_1 getReceivingOrganizationByPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 3c - EER-ReceiverData doesn't exist
 
 Finally, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illus-trated by:
 
-<img src="./3_1c_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1c Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_3c_getGP_SikrGrp2_1_getReceivingOrganizationByPostalCode.png" alt="3_3c get GP SikrGrp2_1 getReceivingOrganizationByPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
