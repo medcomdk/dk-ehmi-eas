@@ -35,5 +35,5 @@ EAS will in order to produce this response run through a sequence of calls from"
 * parameter[=].use = #out
 * parameter[=].min = 0
 * parameter[=].max = "1"
-* parameter[=].documentation = "The response is a MedComMessagingOrganization corresponding to the GP of the Patient"
+* parameter[=].documentation = "The response is a MedComMessagingOrganization corresponding to the General Practitioner of the Patient"
 * parameter[=].type = #Organization

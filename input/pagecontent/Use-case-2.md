@@ -1,4 +1,4 @@
-# Get GP for a Patient by GPId (Health Insurance Group 1)
+# Get General Practitioner for a Patient by GPId (Health Insurance Group 1)
 
 This use case concerns the search for the necessary message address metadata information (like the GLN number) of a general practitioner based on the identification of the general practitioner. This is relevant, for example, when the general practitioner of a patient in the National Danish health insurance group 1 is already known. The sequence diagram for this case is as follows:
 
@@ -21,11 +21,11 @@ This is basically conforming to this OperationDefinition: <a href="OperationDefi
 
 Should an error occur when obtaining the organization id (and other relevant organization information), from the id of the patient’s general practitioner, an error response stating that is packed and returned to the caller of EAS as illustrated in the following diagram:
 
-<img src="./3_2a_getGP_SikrGrp1_2_getReceivingOrganizationByGPId.png" alt="3_2a Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByGPId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_2a_getGP_SikrGrp1_2_getReceivingOrganizationByGPId.png" alt="3_2a Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByGPId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 2b - EER-ReceiverData doesn't exist
 
 Finally, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illus-trated by:
 
-<img src="./3_2b_getGP_SikrGrp1_2_getReceivingOrganizationByGPId.png" alt="3_1c Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByGPId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_2b_getGP_SikrGrp1_2_getReceivingOrganizationByGPId.png" alt="3_1c Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByGPId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 

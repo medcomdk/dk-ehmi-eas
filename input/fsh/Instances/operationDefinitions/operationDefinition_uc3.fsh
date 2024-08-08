@@ -30,11 +30,11 @@ EAS will in order to produce this response run through a sequence of calls from"
 * parameter[=].use = #in
 * parameter[=].min = 1
 * parameter[=].max = "*"
-* parameter[=].documentation = "submitting the Id of the Patient's GP would evoke this search operation"
+* parameter[=].documentation = "submitting the Id of the Patient's General Practitioner would evoke this search operation"
 * parameter[=].type = #string
 * parameter[+].name = #return
 * parameter[=].use = #out
 * parameter[=].min = 0
 * parameter[=].max = "*"
-* parameter[=].documentation = "The response is a MedComMessagingOrganization corresponding to the GP of the Patient"
+* parameter[=].documentation = "The response is a MedComMessagingOrganization corresponding to the General Practitioner of the Patient"
 * parameter[=].type = #Organization

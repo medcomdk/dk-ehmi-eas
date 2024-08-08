@@ -1,4 +1,4 @@
-# Get GP for a Patient (Health Insurance Group 1)
+# Get General Practitioner for a Patient (Health Insurance Group 1)
 
 - GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Patient?Identifier.value=[Patient_Identifier]&system=urn:oid:1.2.208.176.1.2
 - This search will produce a <a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a> as a response
@@ -8,7 +8,7 @@ This is basically conforming to this OperationDefinition: <a href="OperationDefi
 
 This use case concerns the quite common search for the necessary message address metadata information (like the GLN number) of a patient’s general practitioner based on the identification of the patient, which is relevant for citizens in the National Danish health insurance group 1. The sequence diagram for this case is as follows:
 
-<img src="./3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1 Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
+<img src="./3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1 Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
 
 Once EAS has received the request, it validates the patient identification, and if this goes well, the id of the patient’s general practitioner (the so-called “Ydernummer” in Danish) is obtained from the authoritative source for general practitioners (“Sikrede” in Danish). 
 
@@ -26,17 +26,17 @@ With this and the type of message to be sent, the EHMI Endpoint Register (EER) i
 
 Should an error occur during the validation of the patient identification, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram: (margin:20px 40px 40px)
 
-<img src="./3_1a_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1a Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
+<img src="./3_1a_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1a Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
 
 ### Error use case 1b - SOR-Information doesn't exist
 
 Similarly, should an error occur when obtaining the organization id (and other relevant organ-ization information), from the id of the patient’s general practitioner, an error response stat-ing that is packed and returned to the caller of EAS as illustrated in the following diagram:
 
-<img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
+<img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
 
 ### Error use case 1c - EER-ReceiverData doesn't exist
 
 Finally, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illus-trated by:
 
-<img src="./3_1c_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1c Get GP metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
+<img src="./3_1c_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1c Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
 

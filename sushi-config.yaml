@@ -81,9 +81,9 @@ parameters:
 menu:
   Home: index.html
   Use cases:
-    Use case 1 - Get GP for a Patient by PatientId: Use-case-1.html
-    Use case 2 - Get GP for a Patient by GPId: Use-case-2.html
-    Use case 3 - Get possible GP for a Patient by PostalCodes: Use-case-3.html
+    Use case 1 - Get General Practitioner for a Patient by PatientId: Use-case-1.html
+    Use case 2 - Get General Practitioner for a Patient by GPId: Use-case-2.html
+    Use case 3 - Get possible General Practitioner for a Patient by PostalCodes: Use-case-3.html
     Use case 4 - Get ReceivingOrganization by SORID: Use-case-4.html
     Use case 5 - Get ReceivingOrganization by MessageType and Postalcode: Use-case-5.html
 #  Table of Contents: toc.html
