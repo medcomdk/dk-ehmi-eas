@@ -23,7 +23,7 @@ This is basically conforming to this OperationDefinition: <a href="OperationDefi
 
 Should an error occur while trying to obtain the list of general practitioners with the given postal codes, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram:
 
-__*TBD: New Sequencediagram *__
+<img src="./3_3a_getGP_SikrGrp2_1_getReceivingOrganizationByPostalCode.png" alt="3_3a get GP for SikrGrp2_1 getReceivingOrganizationByPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 3b - SOR-Information doesn't exist
 
