@@ -16,15 +16,15 @@ This is basically conforming to this OperationDefinition: <a href="OperationDefi
 
 ### Error use case 5a - PostalCode doesn't exist
 
-__*TBD: New Sequencediagram and text*__
+Similarly, should an error occur when obtaining the organization id (and other relevant organ-ization information), from the id of the patient’s general practitioner, an error response stat-ing that is packed and returned to the caller of EAS as illustrated in the following diagram:
+
+<img src="./3_5_1a_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1a Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 5b - SOR-Information doesn't exist
 
-__*TBD: Change Sequencediagram and text accordingly*__
-
 Similarly, should an error occur when obtaining the organization id (and other relevant organ-ization information), from the id of the patient’s general practitioner, an error response stat-ing that is packed and returned to the caller of EAS as illustrated in the following diagram:
 
-<img src="./3_1b_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1b Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_5_1b_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1b Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 5c - EER-ReceiverData doesn't exist
 
