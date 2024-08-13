@@ -17,11 +17,11 @@ This is basically conforming to this OperationDefinition: <a href="OperationDefi
 
 Similarly, should an error occur when obtaining the organization id (and other relevant organ-ization information), from the id of the patient’s general practitioner, an error response stat-ing that is packed and returned to the caller of EAS as illustrated in the following diagram:
 
-<img src="./3_5_2a_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1a Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_5a_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1a Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 5b - EER-ReceiverData doesn't exist
 
 Finally, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illus-trated by:
 
-<img src="./3_5_3b_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1b Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./3_5b_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1b Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
