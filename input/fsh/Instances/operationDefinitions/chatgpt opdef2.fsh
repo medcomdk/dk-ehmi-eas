@@ -1,9 +1,10 @@
-OperationDefinition: exampleOperation
-Id: example-operation
-Title: "Example Operation"
+/*Instance: convertToEasMedComMessagingOrganization2
+InstanceOf: OperationDefinition
+//Id: example-operation
+Title: "convertToEasMedComMessagingOrganization2"
 Description: "An example operation that takes an EasDkCoreOrganization as input and returns an easMedComMessagingOrganization as output."
 * status = #draft
-* kind = #operation
+* kind = #query
 * name = "exampleOperation"
 * code = "exampleOperation"
 * system = false
@@ -25,3 +26,4 @@ Description: "An example operation that takes an EasDkCoreOrganization as input 
 * parameter[1].max = "1"
 * parameter[1].type = "Reference"
 * parameter[1].profile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMedComMessagingOrganization"
+*/
