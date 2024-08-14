@@ -4,7 +4,7 @@ This use case concerns the quite common search for the necessary message address
 
 <img src="./3_1_getGP_SikrGrp1_1_getReceivingOrganizationByPatientId.png" alt="3_1 Get General Practitioner metadata for Health Insurance Group 1 getReceivingOrganizationByPatId" style="width:100%;height:auto;border=1;margin: 5px 20px 30px 0px">
 
-Once EAS has received the request, it validates the patient identification, and if this goes well, the id of the patient’s general practitioner (the so-called “Ydernummer” in Danish) is obtained from the authoritative source for general practitioners of the citizens (“Sikrede” in Danish). 
+Once EAS has received the request, it validates the patient identification, and if this goes well, the id of the patient’s general practitioner (the so-called “Ydernummer” in Danish) is obtained from the authoritative source for general practitioners of the citizens (“Insured (Sikrede DA)” in Danish). 
 
 From the authoritative health organization register (“SOR”) the organization id (and other relevant organization information) corresponding to the id of the general practitioner is obtained. 
 

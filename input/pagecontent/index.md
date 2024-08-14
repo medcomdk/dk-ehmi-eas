@@ -8,7 +8,7 @@ When EAS receives a search request from a user system it in turn calls the relev
 
 EAS will implement searches in authoritative sources like 
 
-- "Sikrede"
+- "Insured (Sikrede DA)"
 - SOR
 - EER
 
