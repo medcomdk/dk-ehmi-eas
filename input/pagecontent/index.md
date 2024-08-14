@@ -14,11 +14,11 @@ EAS will implement searches in authoritative sources like
 
 In the first version of EAS it will expose these searches for clients in the healthcare domain:
 
-- [Use case 1 - Get General Practitioner for a Patient by PatientId (Health Insurance Group 1)](./index-Use-case-1.html)
-- [Use case 2 - Get General Practitioner for a Patient by GPId (Health Insurance Group 1)](./index-Use-case-2.html)
-- [Use case 3 - Get possible General Practitioner for a Patient by PostalCodes (Health Insurance Group 2)](./index-Use-case-3.html)
-- [Use case 4 - Get ReceivingOrganization by SORID](./index-Use-case-4.html)
-- [Use case 5 - Get ReceivingOrganization by MessageType and Postalcode](./index-Use-case-5.html)
+- [Use case 1 - Get General Practitioner for a Patient by PatientId (Health Insurance Group 1)](./Use-case-1.html)
+- [Use case 2 - Get General Practitioner for a Patient by GPId (Health Insurance Group 1)](./Use-case-2.html)
+- [Use case 3 - Get possible General Practitioner for a Patient by PostalCodes (Health Insurance Group 2)](./Use-case-3.html)
+- [Use case 4 - Get ReceivingOrganization by SORID](./Use-case-4.html)
+- [Use case 5 - Get ReceivingOrganization by MessageType and Postalcode](./Use-case-5.html)
 
 <br/>
 
