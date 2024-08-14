@@ -8,9 +8,9 @@ When EAS receives a search request from a user system it in turn calls the relev
 
 EAS will implement searches in authoritative sources like 
 
-- "Insured (Sikrede DA)"
 - SOR
 - EER
+- "Insured (Sikrede DA)"
 
 In the first version of EAS it will expose the following searches for clients in the healthcare domain:
 
