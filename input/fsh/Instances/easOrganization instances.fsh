@@ -4,9 +4,10 @@ Title: "Example EAS MedCom Messaging Organization"
 Description: "An example instance of the EAS MedCom Messaging Organization with a required endpoint."
 * id = "example-eas-medcom-messaging-organization"
 * name = "Example Organization"
-* identifier.system = "http://example.org/identifier-system"
-* identifier.value = "OrgID"
-* identifier[SOR].value = "325421000016001"
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
+* identifier[SOR-ID].value = "543210987654321"
+* identifier[EAN-ID].system = "https://www.gs1.org/gln"
+* identifier[EAN-ID].value = "5790000121526"
 * telecom[0].system = #phone
 * telecom[0].value = "+123456789"
 * telecom[1].system = #email
@@ -22,7 +23,6 @@ Title: "Example Endpoint"
 Description: "An example endpoint for the EAS MedCom Messaging Organization."
 * id = "example-endpoint"
 * status = #active
-* connectionType.system = http://hl7.org/fhir/ValueSet/endpoint-connection-type
 * connectionType.code = #hl7-fhir-rest
 * connectionType.display = "hl7-fhir-rest"
 * connectionType.system = "http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type"
