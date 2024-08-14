@@ -4,10 +4,10 @@ Parent: DkCoreOrganization
 Profile: EasMedComCoreOrganization
 Parent: MedComCoreOrganization
 
-Profile: easMedComMessagingOrganization
+Profile: EasMedComMessagingOrganization
 Parent: MedComMessagingOrganization
 Id: eas-medcom-messaging-organization
 Title: "EAS MedCom Messaging Organization"
 Description: "An extension of the MedComMessagingOrganization profile with a required endpoint element."
 
-* endpoint MS 1..*
+* endpoint 1..* MS
