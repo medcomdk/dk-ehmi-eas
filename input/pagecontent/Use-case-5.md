@@ -4,7 +4,7 @@
 - This search will produce a <a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a> as a response
 - EAS will in order to produce this response run through a sequence of calls from 
 
-This is conforming to this OperationDefinition: <a href="OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode.html">OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode</a> 
+This use case is conforming to this OperationDefinition: <a href="OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode.html">OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode</a> 
 
 <img src="./3_5_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
