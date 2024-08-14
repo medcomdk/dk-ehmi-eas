@@ -1,5 +1,5 @@
 Instance: ExampleEasMedComMessagingOrganization
-InstanceOf: easMedComMessagingOrganization
+InstanceOf: EasMedComMessagingOrganization
 Title: "Example EAS MedCom Messaging Organization"
 Description: "An example instance of the EAS MedCom Messaging Organization with a required endpoint."
 * id = "example-eas-medcom-messaging-organization"
