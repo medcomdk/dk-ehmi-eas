@@ -22,4 +22,5 @@ parameter[1].use: out
 parameter[1].min: 1
 parameter[1].max: "1"
 parameter[1].type: Organization
-parameter[1].profile: Canonical(easMedComMessagingOrganization)
+parameter[1].profile: Canonical(EasMedComMessagingOrganization)
+
