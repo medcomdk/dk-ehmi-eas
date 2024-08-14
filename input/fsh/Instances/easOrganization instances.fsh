@@ -6,6 +6,7 @@ Description: "An example instance of the EAS MedCom Messaging Organization with 
 * name = "Example Organization"
 * identifier.system = "http://example.org/identifier-system"
 * identifier.value = "OrgID"
+* identifier[SOR].value = "325421000016001"
 * telecom[0].system = #phone
 * telecom[0].value = "+123456789"
 * telecom[1].system = #email
@@ -21,7 +22,11 @@ Title: "Example Endpoint"
 Description: "An example endpoint for the EAS MedCom Messaging Organization."
 * id = "example-endpoint"
 * status = #active
-* connectionType = http://hl7.org/fhir/ValueSet/endpoint-connection-type#hl7-fhir-rest
+* connectionType.system = http://hl7.org/fhir/ValueSet/endpoint-connection-type
+* connectionType.code = #hl7-fhir-rest
+* connectionType.display = "hl7-fhir-rest"
+* connectionType.system = "http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type"
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eas-medcom-messaging-organization"
 * address = "https://example.org/fhir"
+* payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
