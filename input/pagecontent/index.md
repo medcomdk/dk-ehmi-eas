@@ -1,8 +1,8 @@
 # EHMI Addressing Service (EAS)
 
-The EHMI Addressing Service (EAS) Implementation Guide is a Search Profile that defines some basic and reusable search patterns based on SOR and EER Resources. 
+The EHMI Addressing Service (EAS) Implementation Guide is a Search Profile that defines some basic and reusable search patterns based on resources from authoritative sources (like SOR and EER). 
 
-When a user of EHMI wants to send a message, the correct recipient of the message needs to be found. Such a search function already exists to varying degrees in the various user systems, and to make these searches easier, EAS provides useful standardized search services based on relevant authoritative sources.
+When a user of EHMI wants to send a message, the correct recipient of the message needs to be found. Such a search function already exists to varying degrees in the various user systems, and to make the following searches easier, EAS provides useful standardized search services based on relevant authoritative sources.
 
 When EAS receives a search request from a user system it in turn calls the relevant authoritative sources responsible for the information needed for the particular type of search request, and based on this EAS constructs the response for the user system.
 
@@ -12,7 +12,7 @@ EAS will implement searches in authoritative sources like
 - SOR
 - EER
 
-In the first version of EAS it will expose these searches for clients in the healthcare domain:
+In the first version of EAS it will expose the following searches for clients in the healthcare domain:
 
 - [Use case 1 - Get General Practitioner for a Patient by PatientId (Health Insurance Group 1)](./Use-case-1.html)
 - [Use case 2 - Get General Practitioner for a Patient by GPId (Health Insurance Group 1)](./Use-case-2.html)
