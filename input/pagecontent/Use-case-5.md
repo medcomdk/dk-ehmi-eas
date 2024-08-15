@@ -1,8 +1,12 @@
 # Get ReceivingOrganization by MessageType and Postalcode
 
-This use case is conforming to this OperationDefinition: <a href="OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode.html">OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode</a> 
+This use case concerns the search for the necessary message address metadata information (like the GLN number) for recipients capable of receiving specific types of messages within an area defined by postal codes. This is relevant if it is likely the message to be sent will result in the patient having to pay a visit at the receiving organization, why it is handy that the place is relatively close to the patient home (or work) address. The sequence diagram for this case is as follows: 
 
 <img src="./3_5_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+
+When EAS has received the request, the relevant organization information associated with organizations registered with an address with one of the given postal codes is obtained from SOR. With this and the type of message to be sent, the EHMI Endpoint Register (EER) is called to obtain the GLN number and other relevant information, and finally the response is packed and sent back to the caller of EAS.
+
+This use case is conforming to this OperationDefinition: <a href="OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode.html">OperationDefinition-eas.getReceivingOrganizationByMessageTypeAndPostalCode</a>
 
 # Error use cases for use case 5
 
