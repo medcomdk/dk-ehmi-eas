@@ -10,22 +10,23 @@ This use case is conforming to this OperationDefinition: <a href="OperationDefin
 
 # Error use cases for use case 5
 
-- error use case 5a - PostalCode does not exist
+- error use case 5a - PostalCode or SOR-Information does not exist
 - error use case 5b - EER-ReceiverData does not exist
 
 <!-- error use case 5a - PostalCode does not exist -->
 <!-- error use case 5b - SOR-Information doesn't exist -->
 <!-- error use case 5c - EER-ReceiverData doesn't exist -->
 
-### Error use case 5a - PostalCode does not exist
+### Error use case 5a - PostalCode or SOR-Information does not exist
 
-Should the given postal codes be erroneous, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram:
+Should the given postal codes be erroneous or an error occur when obtaining relevant organization information for organizations registered with the given postal codes, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram:
+
 
 <img src="./3_5a_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1a Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
 ### Error use case 5b - EER-ReceiverData does not exist
 
-Should an error occur when obtaining relevant organization information for organizations registered with the given postal codes, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram:
+Correspondingly, should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating that is packed and returned to the caller of EAS as illus-trated by:
 
 <img src="./3_5b_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1b Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
