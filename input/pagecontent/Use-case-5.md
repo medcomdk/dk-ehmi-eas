@@ -13,9 +13,9 @@ This use case is conforming to this OperationDefinition: <a href="OperationDefin
 - error use case 5a - PostalCode does not exist
 - error use case 5b - EER-ReceiverData does not exist
 
-error use case 5a - PostalCode does not exist
-error use case 5b - SOR-Information doesn't exist
-error use case 5c - EER-ReceiverData doesn't exist
+<!-- error use case 5a - PostalCode does not exist -->
+<!-- error use case 5b - SOR-Information doesn't exist -->
+<!-- error use case 5c - EER-ReceiverData doesn't exist -->
 
 ### Error use case 5a - PostalCode does not exist
 
@@ -29,9 +29,10 @@ Should an error occur when obtaining relevant organization information for organ
 
 <img src="./3_5b_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1b Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
-### Error use case 5c - EER-ReceiverData does not exist
+<!-- ### Error use case 5c - EER-ReceiverData does not exist
 
 Should an error occur when obtaining relevant organization information for organizations registered with the given postal codes, an error response stating this is packed and returned to the caller of EAS as illustrated in the following diagram:
 
 <img src="./3_5b_getReceiverData_2_getReceivingOrganizationByMessageTypeAndPostalCode.png" alt="3_5_1b Get ReceiverData getReceivingOrganizationByMessageTypeAndPostalCode" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
+-->
