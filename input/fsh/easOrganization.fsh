@@ -8,7 +8,7 @@ Description: "An extension of the DkCoreOrganization profile."
 Profile: EasMessagingOrganization
 Parent: MedComMessagingOrganization
 Id: eas-messaging-organization
-Title: "EAS MedCom Messaging Organization"
+Title: "EAS Messaging Organization"
 Description: "An extension of the MedComMessagingOrganization profile with a required endpoint element."
 * endpoint 1..* MS
 
