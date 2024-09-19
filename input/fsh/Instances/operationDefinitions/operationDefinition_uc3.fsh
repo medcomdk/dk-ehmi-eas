@@ -24,8 +24,8 @@ EAS will in order to produce this response run through a sequence of calls from"
 * type = false
 * instance = true
 * inputProfile = "string"
-//* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasDkCoreOrganization"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMedComMessagingOrganization"
+//* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasSorOrganization"
+* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1

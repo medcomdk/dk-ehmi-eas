@@ -1,8 +1,8 @@
-Instance: ExampleEasMedComMessagingOrganization
-InstanceOf: EasMedComMessagingOrganization
+Instance: ExampleEasMessagingOrganization
+InstanceOf: EasMessagingOrganization
 Title: "Example EAS MedCom Messaging Organization"
 Description: "An example instance of the EAS MedCom Messaging Organization with a required endpoint."
-* id = "example-eas-medcom-messaging-organization"
+* id = "example-eas-messaging-organization"
 * name = "Example Organization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
@@ -27,6 +27,6 @@ Description: "An example endpoint for the EAS MedCom Messaging Organization."
 * connectionType.display = "hl7-fhir-rest"
 * connectionType.system = "http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type"
 * name = "Example FHIR Endpoint"
-* managingOrganization.reference = "Organization/example-eas-medcom-messaging-organization"
+* managingOrganization.reference = "Organization/example-eas-messaging-organization"
 * address = "https://example.org/fhir"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0

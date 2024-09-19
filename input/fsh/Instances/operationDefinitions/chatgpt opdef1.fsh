@@ -1,8 +1,8 @@
-/*Instance: convertToEasMedComMessagingOrganization
+/*Instance: convertToEasMessagingOrganization
 InstanceOf: OperationDefinition
-//Id: convert-to-eas-medcom-messaging-organization
+//Id: convert-to-eas-messaging-organization
 Title: "Convert to EAS MedCom Messaging Organization"
-Description: "Operation to convert an EAS DK Core Organization to an EAS MedCom Messaging Organization."
+Description: "Operation to convert an EAS SOR Organization to an EAS MedCom Messaging Organization."
 Usage: #definition
 * status = #draft
 * kind = #query
@@ -18,12 +18,12 @@ Usage: #definition
 * parameter[0].min = 1
 * parameter[0].max = "1"
 * parameter[0].type = Organization
-* parameter[0].profile = Canonical(EasDkCoreOrganization)
+* parameter[0].profile = Canonical(EasSorOrganization)
 * parameter[1].name = output
 * parameter[1].use = out
 * parameter[1].min = 1
 * parameter[1].max = "1"
 * parameter[1].type = Organization
-* parameter[1].profile = Canonical(EasMedComMessagingOrganization)
+* parameter[1].profile = Canonical(EasMessagingOrganization)
 
 */
