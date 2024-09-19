@@ -23,7 +23,7 @@ EAS will in order to produce this response run through a sequence of calls from"
 * system = true
 * type = false
 * instance = true
-* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasDkCorePatient"
+* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasCorePatient"
 * outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasOperationOutcome"
 * parameter[0].name = #target
 * parameter[=].use = #in

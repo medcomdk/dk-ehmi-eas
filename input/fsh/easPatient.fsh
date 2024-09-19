@@ -2,8 +2,8 @@
 // This file can be renamed, and additional FSH files can be added.
 // SUSHI will look for definitions in any file using the .fsh ending.
 
-Profile: EasDkCorePatient
+Profile: EasCorePatient
 Parent: DkCorePatient
 // MedComCorePatient
-Description: "EasDkCorePatient version of DkCorePatient"
+Description: "EasCorePatient version of DkCorePatient"
 //* Identifier 1..1
