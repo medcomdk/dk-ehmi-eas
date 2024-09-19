@@ -1,4 +1,5 @@
-Instance: EER-Org-MedCom-SORID-325421000016001
+/*
+Instance: EAS-Org-MedCom-SORID-325421000016001
 InstanceOf: EerSORIOOrganization
 Description: "EerSORIOOrganization MedCom SORID-325421000016001"
 * id = "EER.SOR.IO-MedCom.325421000016001"
@@ -7,8 +8,9 @@ Description: "EerSORIOOrganization MedCom SORID-325421000016001"
 * type[SOR-Hierarchy].coding.code = $EerSOROrganizationType#IE
 * type[SOR-Hierarchy].coding.system = $EerSOROrganizationType
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-MedCom.CVR-26919991)
-
-Instance: EER-EndPoint-MedCom-CVR-26919991
+*/
+/*
+Instance: EAS-EndPoint-MedCom-CVR-26919991
 InstanceOf: EerEndpointRestEds
 Description: "EerEndpointRestEds MedCom CVR-26919991"
 * id = "EER.EndPoint-MedCom.CVR-26919991"
@@ -25,4 +27,4 @@ Description: "EerEndpointRestEds MedCom CVR-26919991"
 * payloadMimeType = #application/fhir+json
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0 
-
+*/
