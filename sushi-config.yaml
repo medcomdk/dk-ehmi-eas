@@ -90,8 +90,11 @@ menu:
   Profiles: profiles.html
 #  Extensions: extensions.html
   Artifacts: artifacts.html
-  Downloads: downloads.html
+  Security: 
+    Security-en: security-en.html
+    Security-da: security-dk.html
   Terminology: terminology.html
+  Downloads: downloads.html
   xhtml-fragments: xhtml-fragments.html
 #  Volume-1: volume1.html
 #
