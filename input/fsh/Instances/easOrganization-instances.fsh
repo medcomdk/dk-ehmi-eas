@@ -18,7 +18,7 @@ Description: "An example instance of the EAS MedCom Messaging Organization with 
 * endpoint[0].reference = "Endpoint/example-endpoint"
 
 Instance: ExampleEndpoint
-InstanceOf: Endpoint
+InstanceOf: EasEndpoint
 Title: "Example Endpoint"
 Description: "An example endpoint for the EAS MedCom Messaging Organization."
 * id = "example-endpoint"
