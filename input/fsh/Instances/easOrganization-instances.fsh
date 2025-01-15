@@ -31,4 +31,4 @@ Description: "An example endpoint for the EAS Messaging Organization."
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eas-messaging-organization"
 * address = "https://example.org/fhir"
-* payloadType[+] = $EasEasMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
