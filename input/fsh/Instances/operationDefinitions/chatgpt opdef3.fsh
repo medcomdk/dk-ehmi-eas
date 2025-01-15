@@ -2,7 +2,7 @@
 Instance: convertToEasMessagingOrganization
 InstanceOf: OperationDefinition
 Title: "EAS MedCom Operation Definition"
-Description: "Operation Definition where the input parameter is an EasSorOrganization profile and the output parameter is an easMedComMessagingOrganization profile."
+Description: "Operation Definition where the input parameter is an EasSorOrganization profile and the output parameter is an easEasMessagingOrganization profile."
 Usage: #definition
 
 * url = "http://example.org/OperationDefinition/eas-medcom-operation"
@@ -13,7 +13,7 @@ Usage: #definition
 * experimental = false
 * date = "2024-08-13"
 * publisher = "Example Publisher"
-* description = "This operation accepts an EasSorOrganization profile as input and returns an easMedComMessagingOrganization profile as output."
+* description = "This operation accepts an EasSorOrganization profile as input and returns an easEasMessagingOrganization profile as output."
 * code = "transform"
 * system = false
 * type = true
@@ -31,5 +31,5 @@ Usage: #definition
 * parameter[1].min = 1
 * parameter[1].max = "1"
 * parameter[1].type = "easMedComMessagingOrganization"
-* parameter[1].documentation = "The output parameter which is an easMedComMessagingOrganization profile."
+* parameter[1].documentation = "The output parameter which is an easEasMessagingOrganization profile."
 */

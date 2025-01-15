@@ -15,7 +15,7 @@ Usage: #definition
 * contact.telecom[+].system = #email
 * contact.telecom[=].value = "ehmi-eas@sundhedsdatastyrelsen.dk"
 * description = "GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Patient?Identifier.value=[Patient_Identifier]&system=urn:oid:1.2.208.176.1.2
-This search will produce a MedComMessagingOrganization as a response
+This search will produce a EasMessagingOrganization as a response
 EAS will in order to produce this response run through a sequence of calls from"
 * code = #getReceivingOrganizationBySORId
 * comment = "getReceivingOrganizationBySORId return MedComMessagingOrganization"
@@ -35,5 +35,5 @@ EAS will in order to produce this response run through a sequence of calls from"
 * parameter[=].use = #out
 * parameter[=].min = 0
 * parameter[=].max = "*"
-* parameter[=].documentation = "The response is a MedComMessagingOrganization corresponding to the General Practitioner of the Patient"
+* parameter[=].documentation = "The response is a EasMessagingOrganization corresponding to the General Practitioner of the Patient"
 * parameter[=].type = #Organization

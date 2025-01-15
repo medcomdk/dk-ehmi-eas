@@ -2,7 +2,7 @@
 InstanceOf: OperationDefinition
 //Id: example-operation
 Title: "convertToEasMessagingOrganization2"
-Description: "An example operation that takes an EasSorOrganization as input and returns an easMedComMessagingOrganization as output."
+Description: "An example operation that takes an EasSorOrganization as input and returns an easEasMessagingOrganization as output."
 * status = #draft
 * kind = #query
 * name = "exampleOperation"
