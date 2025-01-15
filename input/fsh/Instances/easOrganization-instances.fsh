@@ -31,9 +31,9 @@ Description: "An example endpoint for the EAS Messaging Organization."
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eas-messaging-organization"
 * address = "https://example.org/fhir"
-* payloadMimeType[+].value = "text/xml"
-* payloadMimeType[+].value = "application/fhir+xml"
-* payloadMimeType[+].value = "application/fhir+json"
+* payloadMimeType[+] = #text/xml
+* payloadMimeType[+] = #application/fhir+xml
+* payloadMimeType[+] = #application/fhir+json
 * payloadType[+] = $EerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0
 * payloadType[+] = $EerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0
 * payloadType[+] = $EerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:2.0
