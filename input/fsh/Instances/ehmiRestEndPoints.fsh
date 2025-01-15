@@ -25,6 +25,6 @@ Description: "EerEndpointRestEds MedCom CVR-26919991"
 * period.end = "2024-01-01"
 * address = "https://eds.medcom.dk/"
 * payloadMimeType = #application/fhir+json
-* payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
-* payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0 
+* payloadType[+] = $EerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType[+] = $EerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0 
 */

@@ -30,8 +30,6 @@ Id: eas.dk.endpoint.messaging.edelivery
 Title: "EAS Endpoint - EasEndpointMessagingEdelivery"
 Description: "An extension of the EerEndpoint profile with a required endpoint element."
 
-
-EerEndpointMessagingEdelivery
 /*
 Profile: EasMedComCoreOrganization
 Parent: MedComCoreOrganization
