@@ -6,11 +6,11 @@ Description: "An extension of the DkCoreOrganization profile."
 * identifier[EAN-ID] 0..0
 
 Profile: EasMessagingOrganization
-Parent: MedComMessagingOrganization
+Parent: EerMessagingOrganization
 Id: eas-messaging-organization
 Title: "EAS Messaging Organization"
 Description: "An extension of the MedComMessagingOrganization profile with a required endpoint element."
-* endpoint 1..* MS
+//* endpoint 1..* MS
 
 /*
 Profile: EasMedComCoreOrganization
