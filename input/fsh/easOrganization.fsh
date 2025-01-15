@@ -9,8 +9,14 @@ Profile: EasMessagingOrganization
 Parent: EerMessagingOrganization
 Id: eas-messaging-organization
 Title: "EAS Messaging Organization"
-Description: "An extension of the MedComMessagingOrganization profile with a required endpoint element."
+Description: "An extension of the EerMessagingOrganization profile with a required endpoint element."
 //* endpoint 1..* MS
+
+Profile: EasEndpoint
+Parent: EerEndpoint
+Id: eas-endpoint
+Title: "EAS Endpoint"
+Description: "An extension of the EerEndpoint profile with a required endpoint element."
 
 /*
 Profile: EasMedComCoreOrganization
