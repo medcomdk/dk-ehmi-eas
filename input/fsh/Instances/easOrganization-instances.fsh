@@ -18,7 +18,7 @@ Description: "An example instance of the EAS Messaging Organization with a requi
 * endpoint[0].reference = "Endpoint/example-endpoint"
 
 Instance: ExampleEndpoint
-InstanceOf: EasEndpoint
+InstanceOf: EerEndpointMessagingEdelivery
 Title: "Example EAS Messaging Endpoint"
 Description: "An example endpoint for the EAS Messaging Organization."
 * id = "example-endpoint"
@@ -31,4 +31,9 @@ Description: "An example endpoint for the EAS Messaging Organization."
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eas-messaging-organization"
 * address = "https://example.org/fhir"
-* payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0
+* payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0
+* payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:2.0
+* payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
+* payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0
