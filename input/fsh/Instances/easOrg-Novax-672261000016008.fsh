@@ -54,7 +54,7 @@ Description: "EER Messaging EndpointeDeliveryFhir Novax-læge GLNID-579000228828
 * status = #active
 * managingOrganization = Reference(Organization/EER.SOR.HI-Novax.672271000016003)
 * period.start = "2025-01-01"
-* period.end = "2024-01-01"
+* period.end = "2027-01-01"
 * address = "http://novax.dk/edelivery-endpoint"
 * payloadMimeType = #application/fhir+json
 * payloadType[+] = $EerMessageDefinitionUriVS#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0
