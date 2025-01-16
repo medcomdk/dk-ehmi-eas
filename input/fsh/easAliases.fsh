@@ -9,6 +9,7 @@ Alias: $EerMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/
 Alias: $EerEndpointConnectionType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-endpoint-connection-type
 Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-endpoint-connection-type-valueset
 
+
 /*
 Alias: $EhmiDeliveryStatusTypes = http://medcomehmi.dk/ig/dk-ehmi-EAS/CodeSystem/ehmi-delivery-status-types
 Alias: $EhmiDeliveryStatusTypesValueSet = http://medcomehmi.dk/ig/dk-ehmi-EAS/ValueSet/EhmiDeliveryStatusTypesValueSet
