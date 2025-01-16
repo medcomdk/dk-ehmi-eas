@@ -30,6 +30,6 @@ Usage: #definition
 * parameter[1].use = #out
 * parameter[1].min = 1
 * parameter[1].max = "1"
-* parameter[1].type = "easMedComMessagingOrganization"
+* parameter[1].type = "easEasMessagingOrganization"
 * parameter[1].documentation = "The output parameter which is an easEasMessagingOrganization profile."
 */

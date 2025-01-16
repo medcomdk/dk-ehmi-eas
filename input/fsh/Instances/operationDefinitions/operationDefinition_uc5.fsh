@@ -18,7 +18,7 @@ Usage: #definition
 This search will produce a EasMessagingOrganization as a response
 EAS will in order to produce this response run through a sequence of calls from"
 * code = #getReceivingOrganizationByMessageTypeAndPostalCode
-* comment = "getReceivingOrganizationByMessageTypeAndPostalCode return MedComMessagingOrganization"
+* comment = "getReceivingOrganizationByMessageTypeAndPostalCode return EasMessagingOrganization"
 * resource = #CapabilityStatement
 * system = true
 * type = false

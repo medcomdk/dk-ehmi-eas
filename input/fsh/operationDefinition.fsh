@@ -27,5 +27,5 @@ Max: "1"
 Type: boolean
 Documentation: "Whether the MedCom Messaging Organization is active."
 
-Resource: MedComMessagingOrganization
+Resource: EasMessagingOrganization
 */

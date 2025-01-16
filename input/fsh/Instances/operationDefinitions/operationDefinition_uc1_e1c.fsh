@@ -18,7 +18,7 @@ Usage: #definition
 This search will produce a EasMessagingOrganization as a response
 EAS will in order to produce this response run through a sequence of calls from"
 * code = #getSikrGrp1_getReceivingOrganizationByPatientId
-* comment = "eas_SikrGrp1_getReceivingOrganizationByPatientId return MedComMessagingOrganization"
+* comment = "eas_SikrGrp1_getReceivingOrganizationByPatientId return EasMessagingOrganization"
 * resource = #CapabilityStatement
 * system = true
 * type = false
