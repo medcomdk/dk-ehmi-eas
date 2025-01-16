@@ -21,7 +21,7 @@ Description: "EerEndpointRestEds MedCom CVR-26919991"
 * connectionType.display = "hl7-fhir-rest"
 * connectionType.system = "http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type"
 * managingOrganization = Reference(Organization/EER.SOR.IO-MedCom.325421000016001)
-* period.start = "2023-01-01"
+* period.start = "2025-01-01"
 * period.end = "2024-01-01"
 * address = "https://eds.medcom.dk/"
 * payloadMimeType = #application/fhir+json
