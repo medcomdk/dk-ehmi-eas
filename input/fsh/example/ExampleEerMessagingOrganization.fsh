@@ -33,7 +33,7 @@ Description: "An example endpoint for the EAS Messaging Organization."
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json
-* payloadType[+] = $EerMessageDefinitionUriVS#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0
-* payloadType[+] = $EerMessageDefinitionUriVS#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
-* payloadType[+] = $EerMessageDefinitionUriVS#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
-* payloadType[+] = $EerMessageDefinitionUriVS#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0
+* payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0
+* payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0	
+* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
+* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0
