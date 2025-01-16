@@ -2,9 +2,9 @@
 Alias: $EerSOROrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-type
 Alias: $EerSOROrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-type-valueset
 
-Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/medcom-message-definition-uri
-Alias: $EerMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-message-definition-uri
-Alias: $EerMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/eer-message-definition-uri-valueset
+Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/medcom-message-definition-uri
+Alias: $EerMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-message-definition-uri
+Alias: $EerMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-message-definition-uri-valueset
 
 Alias: $EerEndpointConnectionType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-endpoint-connection-type
 Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-endpoint-connection-type-valueset
@@ -50,7 +50,7 @@ Alias: $EhmiDeliveryStatusEntityDetailTypeValueSet = http://medcomehmi.dk/ig/dk-
 Alias: $EhmiDeliveryStatusValueSet = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/ehmi-delivery-status-valueSet
 Alias: $EhmiDeliveryStatusEntityMessageType = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-delivery-status-entity-message-type
 Alias: $EhmiDeliveryStatusEntityObjectRoles = http://terminology.hl7.org/CodeSystem/object-role
-Alias: $EhmiDeliveryStatusEntityObjectRolesVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-rest-object-roles-valueset
+Alias: $EhmiDeliveryStatusEntityObjectRolesVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-delivery-status-rest-object-roles-valueset
 Alias: $AuditEventAgentNetworkType = http://hl7.org/fhir/R4/valueset-network-type.html
 Alias: $AuditEventEntityType = http://terminology.hl7.org/CodeSystem/audit-entity-type
 Alias: $AuditEventAgentWhoTypes = http://hl7.org/fhir/R4/valueset-participation-role-type.html
