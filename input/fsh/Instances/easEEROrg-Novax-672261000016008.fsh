@@ -1,8 +1,6 @@
 Instance: EER-Org-Novax-SORID-672261000016008
 InstanceOf: Eer.Sor.Organization
-Description: "EerSOROrganization Novax-lægehus SORID-672261000016008
-https://hapifhir.ehmi.medcom.t0.hosting.kitkube.dk/fhir/Organization?identifier=672261000016008
-"
+Description: "[EerSOROrganization Novax-lægehus SORID-672261000016008](https://hapifhir.ehmi.medcom.t0.hosting.kitkube.dk/fhir/Organization?identifier=672261000016008)"
 * id = "EER.SOR.IO-Novax.672261000016008"
 //* identifier[SOR].value = "672261000016008"
 * identifier.value = "672261000016008"
