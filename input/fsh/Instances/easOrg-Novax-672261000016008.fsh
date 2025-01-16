@@ -11,7 +11,7 @@ Description: "[EerSOROrganization Novax-lægehus SORID-672261000016008](https://
 
 Instance: EER-Org-Novax-SORID-672271000016003
 InstanceOf: Eer.Sor.Organization
-Description: "EerSORHIOrganization Novax-lægehus SORID-672271000016003"
+Description: "EER SOR HIOrganization Novax-lægehus SORID-672271000016003"
 * id = "EER.SOR.HI-Novax.672271000016003"
 //* identifier[SOR].value = "672271000016003"
 * identifier.value = "672271000016003"
@@ -23,7 +23,7 @@ Description: "EerSORHIOrganization Novax-lægehus SORID-672271000016003"
 
 Instance: EER-Org-Novax-SORID-672291000016004
 InstanceOf: Eer.Sor.Organization
-Description: "EerSOROUOrganization Novax-læge SORID-672291000016004"
+Description: "EER SOR OUOrganization Novax-læge SORID-672291000016004"
 * id = "EER.SOR.OU-Novax.672291000016004"
 //* identifier[SOR].value = "672291000016004"
 * identifier.value = "672291000016004"
@@ -35,7 +35,7 @@ Description: "EerSOROUOrganization Novax-læge SORID-672291000016004"
 
 Instance: EER-Org-Novax-SORID-672281000016001
 InstanceOf: Eer.Sor.Organization
-Description: "EerSOROUOrganization Novax-læge SORID-672281000016001"
+Description: "EER SOR OUOrganization Novax-læge SORID-672281000016001"
 * id = "EER.SOR.OU-Novax.672281000016001"
 //* identifier[SOR].value = "672281000016001"
 * identifier.value = "672281000016001"
@@ -47,7 +47,7 @@ Description: "EerSOROUOrganization Novax-læge SORID-672281000016001"
 
 Instance: EER-EndPoint-Novax-GLNID-5790002288289
 InstanceOf: eer.dk.messaging.edelivery.fhir
-Description: "EerMessagingEndpointeDeliveryFhir Novax-læge GLNID-5790002288289"
+Description: "EER Messaging EndpointeDeliveryFhir Novax-læge GLNID-5790002288289"
 * id = "EER.EndPoint-Novax.GLNID-5790002288289"
 * identifier.value = "5790002288289"
 //* identifier.use = "official"
