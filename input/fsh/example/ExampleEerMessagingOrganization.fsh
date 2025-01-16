@@ -20,8 +20,8 @@ Description: "An example instance of the EER Messaging Organization with a requi
 
 Instance: ExampleEndpoint
 InstanceOf: EasEndpointMessagingEdelivery
-Title: "Example EER Messaging Endpoint"
-Description: "An example endpoint for the EER Messaging Organization."
+Title: "Example EAS Messaging Endpoint"
+Description: "An example endpoint for the EAS Messaging Organization."
 * id = "example-endpoint"
 * identifier.value = "543210987654321"
 * status = #active
@@ -33,16 +33,7 @@ Description: "An example endpoint for the EER Messaging Organization."
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json
-//* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0 
-//* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0
-* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0
-//* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0
-//* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0
-//* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.1
-* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0
-//* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0
-* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:2.0
-//* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0
+* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0
 * payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 * payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
 * payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0
