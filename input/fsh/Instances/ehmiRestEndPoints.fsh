@@ -22,7 +22,7 @@ Description: "EerEndpointRestEds MedCom CVR-26919991"
 * connectionType.system = "http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type"
 * managingOrganization = Reference(Organization/EER.SOR.IO-MedCom.325421000016001)
 * period.start = "2025-01-01"
-* period.end = "2024-01-01"
+* period.end = "2027-01-01"
 * address = "https://eds.medcom.dk/"
 * payloadMimeType = #application/fhir+json
 * payloadType[+] = $EerMessageDefinitionUriVS#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
