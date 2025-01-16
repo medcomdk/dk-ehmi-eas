@@ -7,7 +7,7 @@ Description: "MedComCoreOrganization Novax-lægehus SORID-672261000016008"
 * name = "Lægerne Skt. Clemens Bro I/S"
 * type.coding.code = #550891000005100
 * type.coding.system = "http://snomed.info/sct"
-* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
+//* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: MC-Org-Novax-SORID-672271000016003
 InstanceOf: MedComCoreOrganization
@@ -19,7 +19,7 @@ Description: "MedComCoreOrganization Novax-lægehus SORID-672271000016003"
 * type.coding.code = #394761003
 * type.coding.system = "http://snomed.info/sct"
 * partOf = Reference(Organization/MC.SOR.IO-Novax.672261000016008)
-* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
+//* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: MC-Org-Novax-SORID-672291000016004
 InstanceOf: MedComCoreOrganization
@@ -33,7 +33,7 @@ Description: "MedComCoreOrganization Novax-læge SORID-672291000016004"
 * type.coding.code = #255203001
 * type.coding.system = "http://snomed.info/sct"
 * partOf = Reference(Organization/MC.SOR.HI-Novax.672271000016003)
-* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
+//* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: MC-Org-Novax-SORID-672291000016001
 InstanceOf: MedComCoreOrganization
@@ -47,5 +47,5 @@ Description: "MedComCoreOrganization Novax-læge SORID-672291000016001"
 * type.coding.code = #255203001
 * type.coding.system = "http://snomed.info/sct"
 * partOf = Reference(Organization/MC.SOR.HI-Novax.672271000016003)
-* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
+//* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
