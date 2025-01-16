@@ -2,7 +2,7 @@ Instance: eas.getReceivingOrganizationByPostalCode
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp2 getReceivingOrganizationByPostalCode"
 Usage: #definition
-* url = "http://easbase.eas.dk/OperationDefinition/eas.getReceivingOrganizationByPostalCode"
+* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/eas.getReceivingOrganizationByPostalCode"
 * version = "0.1.0"
 * name = "EAS SikrGrp2 getReceivingOrganizationByPostalCode"
 * title = "EAS SikrGrp2 getReceivingOrganizationByPostalCode"

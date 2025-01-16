@@ -2,7 +2,7 @@ Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId-error1c
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId-error1c"
 Usage: #definition
-* url = "http://easbase.eas.dk/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByPatientId"
+* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByPatientId"
 * version = "0.1.0"
 * name = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1c"
 * title = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1c"

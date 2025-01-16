@@ -2,7 +2,7 @@ Instance: eas.getReceivingOrganizationByMessageTypeAndPostalCode
 InstanceOf: OperationDefinition
 Description: "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
 Usage: #definition
-* url = "http://easbase.eas.dk/OperationDefinition/getReceivingOrganizationByMessageTypeAndPostalCode"
+* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/getReceivingOrganizationByMessageTypeAndPostalCode"
 * version = "0.1.0"
 * name = "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
 * title = "EAS getReceivingOrganizationByMessageTypeAndPostalCode"

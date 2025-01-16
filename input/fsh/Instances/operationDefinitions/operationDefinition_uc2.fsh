@@ -2,7 +2,7 @@ Instance: eas.SikrGrp1-getReceivingOrganizationByGPId
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByGPId"
 Usage: #definition
-* url = "http://easbase.eas.dk/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByGPId"
+* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByGPId"
 * version = "0.1.0"
 * name = "EAS SikrGrp1 getReceivingOrganizationByGPId"
 * title = "EAS SikrGrp1 getReceivingOrganizationByGPId"
