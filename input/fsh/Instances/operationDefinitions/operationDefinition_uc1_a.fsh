@@ -8,7 +8,7 @@ Usage: #definition
 * title = "EAS SikrGrp1 getReceivingOrganizationByPatientId"
 * status = #draft
 * kind = #query
-* date = "2024-06-01T00:00:00+01:00"
+* date = "2025-01-01T00:00:00+01:00"
 * publisher = "EHMI EAS"
 * contact.telecom[0].system = #url
 * contact.telecom[=].value = "http://sundhedsdatastyrelsen.dk/ehmi/eas"

@@ -2,13 +2,13 @@ Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId-error1c
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId-error1c"
 Usage: #definition
-* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByPatientId"
+* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByPatientId_error1c"
 * version = "0.1.0"
 * name = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1c"
 * title = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1c"
 * status = #draft
 * kind = #query
-* date = "2024-06-01T00:00:00+01:00"
+* date = "2025-01-01T00:00:00+01:00"
 * publisher = "EHMI EAS"
 * contact.telecom[0].system = #url
 * contact.telecom[=].value = "http://sundhedsdatastyrelsen.dk/ehmi/eas"
