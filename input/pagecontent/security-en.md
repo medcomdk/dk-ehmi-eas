@@ -10,13 +10,17 @@ EAS does not store data itself but aggregates address information from various a
 
 ### Enrollment/Whitelisting of System Clients in EAS (for Search and Lookup)
 
-Sender systems are enrolled as system clients using the elements described in section 3.3 (Client Enrollment) of the general ‘Sikkerhedsmodel’, where the following scope element is specified:
+Sender systems are enrolled as system clients using the elements described in section 3.3 (Client Enrollment) __*of the general ‘Sikkerhedsmodel’*__, where the following scope element is specified:
 
-| EAS system/Organization.rs |
-|----------------------------|
+ <table border="1">
+    <tr>
+        <td>EAS system/Organization.rs</td>
+    </tr>
+</table>
 
-**Metadata for an EAS System Client  
-**No additional metadata needs to be specified beyond what is described in section 3.3.1 (Metadata for Clients) of the general ‘Sikkerhedsmodel’.
+**Metadata for an EAS System Client**
+
+No additional metadata needs to be specified beyond what is described in section 3.3.1 (Metadata for Clients) __*of the general ‘Sikkerhedsmodel’*__.
 
 Example metadata document for an EAS system client:
 
@@ -39,14 +43,14 @@ Calls to the Token Endpoint
 
 To obtain an access token for accessing EAS, the following scopes are specified:
 
-| **scope**              | **Beskrivelse**                                                                                                                  |
+| **scope**              | **Description**                                                                                                                  |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | EAS                    | Indicates that the client is requesting an access token for EAS.                                                                 |
 | system/Organization.rs | Specifies that the token should enable reading/searching for health addressing resources (profiled FHIR Organization resources). |
 
-**  
-Validation of Calls at the Authorization Server  
-**The call to the Token Endpoint is validated by the Authorization Server, which verifies the client’s TLS client certificate and checks that the client is enrolled/whitelisted with the specified scopes.
+**Validation of Calls at the Authorization Server**
+
+The call to the Token Endpoint is validated by the Authorization Server, which verifies the client’s TLS client certificate and checks that the client is enrolled/whitelisted with the specified scopes.
 
 ### Calls to EAS
 
@@ -75,9 +79,9 @@ Authorization: Bearer eyJhb ... Dhi6g
 }
 ```
 
-**EAS Access Control  
-  
-**The EHMI Addressing Service (EAS) verifies that the access token is valid and validates the “sender-constrained” property. This means it checks that the TLS client certificate used by the client matches the certificate embedded in the access token.
+**EAS Access Control**
+
+The EHMI Addressing Service (EAS) verifies that the access token is valid and validates the “sender-constrained” property. This means it checks that the TLS client certificate used by the client matches the certificate embedded in the access token.
 
 Additionally, the service validates that the token:
 
