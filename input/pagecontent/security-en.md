@@ -12,7 +12,7 @@ EAS does not store data itself but aggregates address information from various a
 
 Sender systems are enrolled as system clients using the elements described in section 3.3 (Client Enrollment) __*of the general ‘Sikkerhedsmodel’*__, where the following scope element is specified:
 
- <table border="1">
+<table border="1">
     <tr>
         <td>EAS system/Organization.rs</td>
     </tr>
