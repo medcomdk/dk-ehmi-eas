@@ -1,4 +1,3 @@
-/*
 Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId-error1b
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId"
@@ -38,4 +37,5 @@ EAS will in order to produce this response run through a sequence of calls from"
 * parameter[=].max = "1"
 * parameter[=].documentation = "The response is an OperationOutcome due to non-existing SORID"
 * parameter[=].type = #OperationOutcome
+/*
 */
