@@ -1,4 +1,3 @@
-/*
 Instance: eas.getReceivingOrganizationByMessageTypeAndPostalCode
 InstanceOf: OperationDefinition
 Description: "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
@@ -38,4 +37,5 @@ EAS will in order to produce this response run through a sequence of calls from"
 * parameter[=].max = "*"
 * parameter[=].documentation = "The response is a EasMessagingOrganization corresponding to the General Practitioner of the Patient"
 * parameter[=].type = #Organization
+/*
 */
