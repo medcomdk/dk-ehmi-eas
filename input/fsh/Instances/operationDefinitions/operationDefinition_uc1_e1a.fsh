@@ -1,4 +1,3 @@
-/*
 Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId-error1a
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId"
@@ -39,4 +38,5 @@ EAS will in order to produce this response run through a sequence of calls from"
 * parameter[=].max = "1"
 * parameter[=].documentation = "The response is an OperationOutcome due to non-existing PatientId"
 * parameter[=].type = #OperationOutcome
+/*
 */
