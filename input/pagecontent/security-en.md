@@ -1,41 +1,85 @@
-### 7.2	EHMI Addressing Service (EAS)
+## EHMI Addressing Service (EAS)
 
-Igennem Sundhedsadresseringsservicen (EAS) kan afsendersystemer fremsøge potentielle meddelelsesmodtagere ud fra forskellige søgekriterier.
+Through the EHMI Addressing Service (EAS), sender systems can search for potential message recipients based on various search criteria.
 
-EAS indeholder personhenførbare oplysninger i form af borgernes egen læge (som kan slås op på baggrund af en borgers CPR nummer), men indeholder ingen personfølsomme data. Det er derfor blevet vurderet, at adgang til EAS kan foregå på systemniveau og ikke kræver, at den autentificerede identitet af den menneskelige bruger bag kaldet overføres til EAS.
+In communication with EAS, *personally identifiable* information may be included, such as a citizen’s general practitioner (which can be looked up using the citizen’s CPR number). However, no *sensitive personal data* is involved. Consequently, it has been decided that access to EAS can occur at the system level and does not require the authenticated identity of the human user behind the call to be transmitted to EAS.
 
-### 7.2.1	EAS usecases
+### EAS usecases
 
-EAS er ikke selv databærende, men aggregerer adresseoplysninger ud fra en række forskellige autoritative kilder (herunder postkasseregisteret EER). EAS udstiller således alene en snitflade til at kunne foretage søgninger og opslag.
+EAS does not store data itself but aggregates address information from various authoritative sources (including the EHMI Endpoint Register, EER). Thus, EAS solely provides an interface for performing searches and lookups.
 
-### 7.2.2	Indrullering/whitelisting af systemklienter i EAS (til søgning og opslag)
+### Enrollment/Whitelisting of System Clients in EAS (for Search and Lookup)
 
-Afsendersystemer indrulleres som systemklienter med de i afsnit 3.3 Indrullering af klienter beskrevne elementer, hvor der angives følgende som scope element:
- 
-Metadata for en EAS systemklient
+Sender systems are enrolled as system clients using the elements described in section 3.3 (Client Enrollment) of the general ‘Sikkerhedsmodel’, where the following scope element is specified:
 
-Der skal ikke angives yderligere metadata end de i afsnit 3.3.1 Metadata for klienter beskrevne.
+| EAS system/Organization.rs |
+|----------------------------|
 
-Eksempel metadata dokument for en EAS systemklient:
- 
-### 7.2.3	Kald til Token Endpoint
+**Metadata for an EAS System Client  
+**No additional metadata needs to be specified beyond what is described in section 3.3.1 (Metadata for Clients) of the general ‘Sikkerhedsmodel’.
 
-For at få udstedt et access token til at kunne tilgå EAS angives følgende scopes:
+Example metadata document for an EAS system client:
 
-scope 	Beskrivelse
-EAS	En angivelse af det er for EAS, at klienten ønsker et access token.
-system/Organization.rs	En angivelse af at tokenet skal kunne læse/fremsøge sundhedsadresserings ressourcer (som er profileringer af FHIR’s Organization ressource).
+```
+{
+  "token_endpoint_auth_method": "tls_client_auth",
+  "grant_types": [
+    "client_credentials"
+  ],
+  "client_name": "Aarhus Kommunes EOJ",
+  "scope": "EAS system/Organization.rs",
+  "contacts": [
+    "eoj@aarhus-kommune.dk",
+  ],
+  "tls_client_auth_subject_dn": "subject=CN=EOJ leverandør XYZ’s systemcertifikat, serialNumber=UI:DK-O:G: d6eef4ae-5c37-4206-be4c-5fac2cbca29d, O=EOJ leverandør XYZ, organizationIdentifier=NTRDK-56781234, C=DK"
+}
+```
 
-Valideringer af kaldet hos Authorization Server
+Calls to the Token Endpoint
 
-Kaldet til Token Endpoint valideres hos Authorization Server, som validerer klientens TLS-klientcertifikat og tjekker, at klienten er indrulleret/whitelistet med de angivne scopes. 
+To obtain an access token for accessing EAS, the following scopes are specified:
 
-### 7.2.4	Kald til EAS
+| **scope**              | **Beskrivelse**                                                                                                                  |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| EAS                    | Indicates that the client is requesting an access token for EAS.                                                                 |
+| system/Organization.rs | Specifies that the token should enable reading/searching for health addressing resources (profiled FHIR Organization resources). |
 
-Kald til EAS foretages som beskrevet i den generelle sikkerhedsmodel som REST-kald over tovejs TLS, med access tokenet (som er sender-constrained) i en HTTP header.
+**  
+Validation of Calls at the Authorization Server  
+**The call to the Token Endpoint is validated by the Authorization Server, which verifies the client’s TLS client certificate and checks that the client is enrolled/whitelisted with the specified scopes.
 
-EAS adgangskontrol
+### Calls to EAS
 
-Sundhedsadresseringsservicen tjekker, at access tokenet er gyldigt og validerer ’sender-contrained’ egenskaben, det vil sige validerer, at det af klientens anvendte TLS-klientcertifikat matcher certifikatet som blev indlejret i access tokenet. 
+Calls to EAS are made as described in the general security model, using REST calls over mutual TLS (two-way TLS), with the access token (which is sender-constrained) included in an HTTP header.
 
-Servicen validerer desuden, at tokenet er udstedt til EAS som aftager af tokenet og indeholder de nødvendige scopes til at klienten må foretage opslag i EAS.
+Below is an example of a system client calling an EAS operation that returns the general practitioner (‘egen læge’) for a patient (who is in health insurance group (sygesikringsgruppe) 1):
+
+```
+POST /base/$getSikrGrp1_getReceivingOrganizationByPatientId HTTP/1.1
+Host: eas.sundhedsdatastyrlsen.dk
+Accept: application/fhir+json
+Content-Type: application/fhir+json
+Content-Length: 9191
+Authorization: Bearer eyJhb ... Dhi6g
+
+{
+  "parameter": [
+    {
+      "name": "target",
+      "resource": {
+        "resourceType": "Patient",
+        // Patient resource
+      }
+    }
+  ]
+}
+```
+
+**EAS Access Control  
+  
+**The EHMI Addressing Service (EAS) verifies that the access token is valid and validates the “sender-constrained” property. This means it checks that the TLS client certificate used by the client matches the certificate embedded in the access token.
+
+Additionally, the service validates that the token:
+
+-   Is issued for EAS as the recipient of the token.
+-   Contains the necessary scopes to allow the client to perform lookups in EAS.
