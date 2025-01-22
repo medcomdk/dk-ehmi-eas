@@ -43,10 +43,20 @@ Calls to the Token Endpoint
 
 To obtain an access token for accessing EAS, the following scopes are specified:
 
-| **scope**              | **Description**                                                                                                                  |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| EAS                    | Indicates that the client is requesting an access token for EAS.                                                                 |
-| system/Organization.rs | Specifies that the token should enable reading/searching for health addressing resources (profiled FHIR Organization resources). |
+<table border="1">
+    <tr>
+        <th>Scope</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>EAS</td>
+        <td>Indicates that the client is requesting an access token for EAS.</td>
+    </tr>
+    <tr>
+        <td>system/Organization.rs</td>
+        <td>Specifies that the token should enable reading/searching for health addressing resources (profiled FHIR Organization resources).</td>
+    </tr>
+</table>
 
 **Validation of Calls at the Authorization Server**
 
