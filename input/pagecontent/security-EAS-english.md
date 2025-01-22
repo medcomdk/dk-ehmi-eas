@@ -54,7 +54,7 @@ Example metadata document for an EAS system client:
 }
 ```
 
-Calls to the Token Endpoint
+### Calls to the Token Endpoint
 
 To obtain an access token for accessing EAS, the following scopes are specified:
 
