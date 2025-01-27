@@ -1,3 +1,4 @@
+/*
 Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId-error1a
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId"
