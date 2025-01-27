@@ -1,5 +1,4 @@
-
-Instance: eas.getReceivingOrganizationBySORId
+/*Instance: eas.getReceivingOrganizationBySORId
 InstanceOf: OperationDefinition
 Description: "EAS getReceivingOrganizationBySORId"
 Usage: #definition
