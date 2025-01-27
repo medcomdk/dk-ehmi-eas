@@ -1,4 +1,4 @@
-Instance: eas.getReceivingOrganizationByMessageTypeAndPostalCode
+/*Instance: eas.getReceivingOrganizationByMessageTypeAndPostalCode
 InstanceOf: OperationDefinition
 Description: "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
 Usage: #definition
