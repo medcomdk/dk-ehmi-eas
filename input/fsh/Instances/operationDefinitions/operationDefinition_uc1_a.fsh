@@ -1,4 +1,4 @@
-Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId
+/*Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId"
 Usage: #definition
