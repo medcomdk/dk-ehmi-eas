@@ -14,13 +14,16 @@ This use case is conforming to this OperationDefinition:
 __*OBS Operations code must be inserted here*__
 <!--a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId</a-->
 
-    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId
+    **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
+
+    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId/eas.SikrGrp1-getReceivingOrganizationByPatientId
 
     URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId/getSikrGrp1_getReceivingOrganizationByPatientId
 
     Input parameters Profile:
 
     http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/Patient?identifier=[cpr-identifier]
+    
     Output parameters Profile:
 
     http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
