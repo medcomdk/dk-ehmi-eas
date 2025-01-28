@@ -24,3 +24,9 @@ In the first version of EAS it will expose the following searches for clients in
 
 <img src="./EHMI Pixi - Addressing Service.png" alt="EHMI Addressing Service (EAS) (DA)" width="100%">
 
+
+### Security for the calls to EAS
+
+The calls for EAS are always produced in a security context. 
+
+[The calls for EAS are described here](security-EAS-english.html)
