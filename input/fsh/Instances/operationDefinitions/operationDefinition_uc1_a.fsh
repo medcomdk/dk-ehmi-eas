@@ -14,7 +14,7 @@ Usage: #definition
 * contact.telecom[=].value = "http://sundhedsdatastyrelsen.dk/ehmi/eas"
 * contact.telecom[+].system = #email
 * contact.telecom[=].value = "ehmi-eas@sundhedsdatastyrelsen.dk"
-* description = "GET [EAS-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Patient?Identifier.value=[Patient_Identifier]&system=urn:oid:1.2.208.176.1.2
+* description = "GET [EAS-base]/Organization?_profile=http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/eas-messaging-organization&Patient?Identifier.value=[Patient_Identifier]&system=urn:oid:1.2.208.176.1.2
 This search will produce a EasMessagingOrganization as a response
 EAS will in order to produce this response run through a sequence of calls from"
 * code = #getSikrGrp1_getReceivingOrganizationByPatientId
@@ -24,7 +24,7 @@ EAS will in order to produce this response run through a sequence of calls from"
 * type = false
 * instance = true
 * inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasCorePatient"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization"
+* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/eas-messaging-organization"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1
