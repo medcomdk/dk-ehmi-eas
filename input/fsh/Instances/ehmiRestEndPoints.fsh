@@ -5,8 +5,8 @@ Description: "EerSORIOOrganization MedCom SORID-325421000016001"
 * id = "EER.SOR.IO-MedCom.325421000016001"
 * identifier[SOR].value = "325421000016001"
 * name = "MedCom"
-* type[SOR-Hierarchy].coding.code = $EerSOROrganizationType#IE
-* type[SOR-Hierarchy].coding.system = $EerSOROrganizationType
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IE
+* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-MedCom.CVR-26919991)
 */
 /*
