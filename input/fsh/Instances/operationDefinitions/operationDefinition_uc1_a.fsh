@@ -1,4 +1,4 @@
-/*Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId
+Instance: eas.SikrGrp1-getReceivingOrganizationByPatientId
 InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId"
 Usage: #definition
@@ -37,4 +37,3 @@ EAS will in order to produce this response run through a sequence of calls from"
 * parameter[=].max = "1"
 * parameter[=].documentation = "The response is a EasMessagingOrganization corresponding to the General Practitioner of the Patient"
 * parameter[=].type = #Organization
-/**/
