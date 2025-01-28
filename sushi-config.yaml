@@ -93,9 +93,9 @@ menu:
   Security: 
     Security-en: security-EAS-english.html
     Security-da: security-EAS-danish.html
-  Terminology: terminology.html
+#  Terminology: terminology.html
+  Dependencies: dependencies.html
   Downloads: downloads.html
-  xhtml-fragments: xhtml-fragments.html
 #  Volume-1: volume1.html
 #
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
