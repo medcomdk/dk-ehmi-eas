@@ -29,10 +29,10 @@ dependencies:
   medcom.fhir.dk.core: 2.3.0
   medcom.fhir.dk.messaging: 2.1.0
   medcom.fhir.dk.terminology: 1.5.0
-  dk.ehmi.terminology: current
-  dk.ehmi.eer: current
-  dk.ehmi.eds: current
-  medcom.fhir.dk.ihe.xds.metadata: current
+  dk.ehmi.terminology: 1.0.0
+  dk.ehmi.eer: 1.0.0
+  dk.ehmi.eds: 1.0.0
+#  medcom.fhir.dk.ihe.xds.metadata: 1.0.0
 
 #
 #
