@@ -7,3 +7,9 @@ Parent: DkCorePatient
 // MedComCorePatient
 Description: "EasCorePatient version of DkCorePatient"
 //* Identifier 1..1
+
+Instance: EasCorePatient-instance
+InstanceOf: EasCorePatient
+* identifier.value = "0108589995"
+* generalPractitioner = Reference(Organization/EER.SOR.OU-Novax.672281000016001)
+// reference(Organization\"672281000016001")
