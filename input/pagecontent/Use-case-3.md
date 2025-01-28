@@ -7,7 +7,9 @@ This use case concerns the search for the necessary message address metadata inf
 Once EAS has received the first request, a list of general practitioners located within the given postal codes is obtained from the authoritative health organization register (“SOR”). This list is then packed and sent back to the caller of EAS.
 The user selects a general practitioner from the returned list and calls EAS with the organization identification of the selected general practitioner. When EAS receives this, second, request, other relevant organization information associated with the organization id is obtained from SOR. With this and the type of message to be sent, the EHMI Endpoint Register (EER) is then called to obtain the GLN number and other relevant information, and finally the response is packed and sent back to the caller of EAS. The message type is, again, needed in the second call to EAS, such that EAS can return the correct response for the given message type – it could for example be that the system of the general practitioner does not support receiving the particular type of message.
 
-This use case is conforming to this OperationDefinition: <a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId</a> 
+This use case is conforming to this OperationDefinition: 
+__*OBS Operations code must be inserted here*__
+<!--a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId</a--> 
 
 # Error use cases for use case 3
 

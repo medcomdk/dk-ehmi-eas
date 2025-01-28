@@ -1,3 +1,4 @@
+<!--
 ## Inherited from IHE BALP profile (will be profiled for EAS soon)
 ### 3:5.7.1 Scope
 The EASBasicDeliveryStatus (AuditEvent) resource is used to record that an auditable event has happened. These auditable events are usually security or privacy relevant, but may be for other purposes. The profiles of EASBasicDeliveryStatus (AuditEvent) here are to support security and/or privacy use-cases. These profiles of EASBasicDeliveryStatus (AuditEvent) can be used as is, or may be used to derive more specific profiles of EASBasicDeliveryStatus (AuditEvent) for more specific use-cases. 
@@ -14,3 +15,4 @@ MedCom FHIR Messaging | - | [Patient related Messages](StructureDefinition-EASPa
 MedCom FHIR Messaging | [Acknowledgements](StructureDefinition-EASBasicDeliveryStatus.html) | - | [examples](index.html)
 {:.grid}
 An example of an auditable event being recorded by the client and server is represented by the Create examples. 
+-->
