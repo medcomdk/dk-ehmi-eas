@@ -11,8 +11,8 @@ From the authoritative health organization register (“SOR”) the organization
 With this and the type of message to be sent, the EHMI Endpoint Register (EER) is finally called to obtain the GLN number and other relevant information, and the response is packed and sent back to the caller of EAS. Note that the message type is needed in the initiating call to EAS, such that EAS can return the correct response for the given message type – it could for example be that the system of the general practitioner does not support receiving the particular type of message.
 
 This use case is conforming to this OperationDefinition: 
+
 __*OBS Operations code must be inserted here*__
-<!--a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId</a-->
 
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
 
