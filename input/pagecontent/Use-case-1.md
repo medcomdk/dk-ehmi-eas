@@ -14,6 +14,18 @@ This use case is conforming to this OperationDefinition:
 __*OBS Operations code must be inserted here*__
 <!--a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId</a-->
 
+    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId
+
+    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId/getSikrGrp1_getReceivingOrganizationByPatientId
+
+    Input parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/Patient?identifier=[cpr-identifier]
+    Output parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
+
+
 # Error use cases for use case 1
 
 - error use case 1a - PatId does not exist
