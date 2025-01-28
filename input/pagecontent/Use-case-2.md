@@ -10,6 +10,20 @@ This use case is conforming to this OperationDefinition:
 __*OBS Operations code must be inserted here*__
 <!--a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByGPId</a-->
 
+    **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
+
+    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId/eas.SikrGrp1-getReceivingOrganizationByPatientId
+
+    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId
+
+    Input parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition
+    
+    Output parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
+
 # Error use cases for use case 2
 
 - error use case 2a - SOR-Information does not exist
