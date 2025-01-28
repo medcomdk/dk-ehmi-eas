@@ -16,9 +16,9 @@ __*OBS Operations code must be inserted here*__
 
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
 
-    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId/eas.SikrGrp1-getReceivingOrganizationByPatientId
+    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByPatientId
 
-    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId/getSikrGrp1_getReceivingOrganizationByPatientId
+    URL: [base]/$getSikrGrp1_getReceivingOrganizationByPatientId
 
     Input parameters Profile:
 
