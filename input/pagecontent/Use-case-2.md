@@ -15,11 +15,11 @@ __*OBS Operations code must be inserted here*__
 
     Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId
 
-    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId
+    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId/identifer=[GP-identifer]
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasCoreOrganization/identifer=[GP-identifer]
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasCoreOrganization
     
     Output parameters Profile:
 
