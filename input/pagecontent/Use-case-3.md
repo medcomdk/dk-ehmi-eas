@@ -16,7 +16,7 @@ __*OBS Operations code must be inserted here*__
 
     Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByPostalCode
 
-    URL: [base]/$getReceivingOrganizationByPostalCode/
+    URL: [base]/$getReceivingOrganizationByPostalCode/[ListOfPostalCodes]
 
     Input parameters Profile: string
     
