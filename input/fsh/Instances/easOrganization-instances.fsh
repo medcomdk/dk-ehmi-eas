@@ -1,9 +1,9 @@
 Instance: ExampleEasMessagingOrganization2
 InstanceOf: EasMessagingOrganization
-Title: "Example EAS Messaging Organization"
-Description: "An example instance of the EAS Messaging Organization with a required endpoint."
+Title: "Example EasMessagingOrganization2"
+Description: "An example instance of the EasMessagingOrganization with a required endpoint.2"
 * id = "example-eas-messaging-organization2"
-* name = "Example Organization"
+* name = "Example EasMessagingOrganization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
@@ -20,8 +20,8 @@ Description: "An example instance of the EAS Messaging Organization with a requi
 
 Instance: ExampleEndpoint2
 InstanceOf: EerEndpointMessagingEdelivery
-Title: "Example EAS Messaging Endpoint"
-Description: "An example endpoint for the EAS Messaging Organization."
+Title: "Example EasMessagingEndpoint2"
+Description: "An example endpoint2 for an EasMessagingOrganization."
 * id = "example-endpoint2"
 * identifier.value = "543210987654321"
 * status = #active
