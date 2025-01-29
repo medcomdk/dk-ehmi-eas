@@ -27,11 +27,6 @@ __*OBS Operations code must be inserted here*__
     http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
 
 
-Output parameters Profile:
-
-http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
-
-
 # Error use cases for use case 3
 
 - error use case 3a - PostalCode does not exist
