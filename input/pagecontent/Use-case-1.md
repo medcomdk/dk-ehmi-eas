@@ -12,7 +12,6 @@ With this and the type of message to be sent, the EHMI Endpoint Register (EER) i
 
 This use case is conforming to this OperationDefinition: 
 
-
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, 
     but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
 
