@@ -6,6 +6,7 @@ Description: "An example instance of the EER Messaging Organization with a requi
 * name = "Example Organization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
 * telecom[0].system = #phone
