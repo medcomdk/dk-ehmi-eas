@@ -8,7 +8,6 @@ Initially, when EAS receives this request, the given organization id is validate
 
 This use case is conforming to this OperationDefinition: 
 
-__*OBS Operations code must be inserted here*__
 
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, 
     but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
