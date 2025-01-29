@@ -14,13 +14,11 @@ __*OBS Operations code must be inserted here*__
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, 
     but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
 
-    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId
+    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByPostalCode
 
-    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId
+    URL: [base]/$getReceivingOrganizationByPostalCode/
 
-    Input parameters Profile:
-
-    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasCoreOrganization/identifer=[GP-identifer]
+    Input parameters Profile: string
     
     Output parameters Profile:
 
