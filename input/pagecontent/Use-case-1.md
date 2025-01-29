@@ -19,11 +19,11 @@ __*OBS Operations code must be inserted here*__
 
     Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByPatientId
 
-    URL: [base]/$getSikrGrp1_getReceivingOrganizationByPatientId
+    URL: [base]/$getSikrGrp1_getReceivingOrganizationByPatientId?identifier=[cpr-identifier]
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/Patient?identifier=[cpr-identifier]
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/easPatient
     
     Output parameters Profile:
 
