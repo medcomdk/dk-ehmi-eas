@@ -30,7 +30,7 @@ __*OBS Operations code must be inserted here*__
     http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
 
 
-# Error use cases for use case 1
+# Important error use cases for use case 1
 
 - error use case 1a - PatId does not exist
 - error use case 1b - SOR-Information does not exist

@@ -26,7 +26,7 @@ __*OBS Operations code must be inserted here*__
     http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
 
 
-# Error use cases for use case 4
+# Important error use cases for use case 4
 
 - error use case 4a - SOR-Information does not exist
 - error use case 4b - EER-ReceiverData does not exist

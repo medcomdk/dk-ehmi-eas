@@ -24,7 +24,7 @@ __*OBS Operations code must be inserted here*__
 
     http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
 
-# Error use cases for use case 3
+# Important error use cases for use case 3
 
 - error use case 3a - PostalCode does not exist
 - error use case 3b - SOR-Information does not exist
