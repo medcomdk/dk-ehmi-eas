@@ -15,7 +15,7 @@ __*OBS Operations code must be inserted here*__
 
     Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId
 
-    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId/identifer=[GP-identifer]
+    URL: [base]/$getSikrGrp1_getReceivingOrganizationByGPId/EasCoreOrganization?identifer=[GP-identifer]
 
     Input parameters Profile:
 
