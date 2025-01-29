@@ -18,7 +18,11 @@ In the first version of EAS it will expose the following searches for clients in
 - [Use case 2 - Get General Practitioner for a Patient by GPId (Health Insurance Group 1)](./Use-case-2.html)
 - [Use case 3 - Get possible General Practitioner for a Patient by PostalCodes (Health Insurance Group 2)](./Use-case-3.html)
 - [Use case 4 - Get ReceivingOrganization by SORID](./Use-case-4.html)
-- [Use case 5 - Get ReceivingOrganization by MessageType and Postalcode](./Use-case-5.html)
+<!-- - [Use case 5 - Get ReceivingOrganization by MessageType and Postalcode](./Use-case-5.html) -->
+
+<br/>
+
+    For every request EAS will either produce a concrete result response bundled as in normal FHIR server searches or as an OperationOutcome that outlines whether it was a failure or just an informative note, stating what could be the possible cause, why nothing was returned.
 
 <br/>
 
