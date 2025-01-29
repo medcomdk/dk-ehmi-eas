@@ -22,7 +22,9 @@ In the first version of EAS it will expose the following searches for clients in
 
 <br/>
 
-    For every request EAS will either produce a concrete result response bundled as in normal FHIR server searches or as an OperationOutcome that outlines whether it was a failure or just an informative note, stating what could be the possible cause, why nothing was returned.
+    For every request EAS will either produce a concrete result response bundled as in normal FHIR server searches 
+    - or as an OperationOutcome that outlines whether it was a failure 
+    - or just an informative note, stating what could be the possible cause, why nothing was returned.
 
 <br/>
 
