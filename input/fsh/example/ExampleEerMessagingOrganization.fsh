@@ -1,9 +1,9 @@
 Instance: ExampleEerMessagingOrganization
 InstanceOf: EasMessagingOrganization
-Title: "Example EER Messaging Organization"
-Description: "An example instance of the EER Messaging Organization with a required endpoint."
+Title: "Example EasMessagingOrganization"
+Description: "An example instance of the EasMessagingOrganization with a required endpoint."
 * id = "example-eas-messaging-organization"
-* name = "Example Organization"
+* name = "Example EasMessagingOrganization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
