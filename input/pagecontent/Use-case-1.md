@@ -12,6 +12,20 @@ With this and the type of message to be sent, the EHMI Endpoint Register (EER) i
 
 This use case is conforming to this OperationDefinition: <a href="OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId.html">OperationDefinition-eas.SikrGrp1-getReceivingOrganizationByPatientId</a>
 
+    **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
+
+    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByPatientId
+
+    URL: [base]/$getSikrGrp1_getReceivingOrganizationByPatientId
+
+    Input parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/Patient?identifier=[cpr-identifier]
+
+    Output parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
+
 # Error use cases for use case 1
 
 - error use case 1a - PatId does not exist
