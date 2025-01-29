@@ -86,7 +86,6 @@ menu:
     Use case 3 - Get possible General Practitioner for a Patient by PostalCodes: Use-case-3.html
     Use case 4 - Get ReceivingOrganization by SORID: Use-case-4.html
     Use case 5 - Get ReceivingOrganization by MessageType and Postalcode: Use-case-5.html
-#  Table of Contents: toc.html
   Profiles: profiles.html
 #  Extensions: extensions.html
   Artifacts: artifacts.html
@@ -94,8 +93,10 @@ menu:
     Security-en: security-EAS-english.html
     Security-da: security-EAS-danish.html
 #  Terminology: terminology.html
-  Dependencies: dependencies.html
-  Downloads: downloads.html
+  More:
+    Table of Contents: toc.html
+    Downloads: downloads.html
+    Dependencies: dependencies.html
 #  Volume-1: volume1.html
 #
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
