@@ -11,7 +11,7 @@ This use case is conforming to this OperationDefinition:
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, 
     but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
 
-    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationByGPId
+    Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationBySORId
 
     URL: [base]/$getReceivingOrganizationBySORID/EasCoreOrganization?identifer=[SOR-identifer]&MessageType=[MessageType]
 
