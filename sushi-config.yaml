@@ -88,8 +88,8 @@ menu:
     # Use case 5 - Get ReceivingOrganization by MessageType and Postalcode: Use-case-5.html
   Profiles: profiles.html
   Security: 
-    Security-en: security-eas-english.html
-    Security-da: security-eas-danish.html
+    Security-en: security-english.html
+    Security-da: security-danish.html
   Artifacts: artifacts.html
   More:
     Table of Contents: toc.html
