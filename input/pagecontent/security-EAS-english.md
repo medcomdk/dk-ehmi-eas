@@ -112,3 +112,4 @@ Additionally, the service validates that the token:
 
 -   Is issued for EAS as the recipient of the token.
 -   Contains the necessary scopes to allow the client to perform lookups in EAS.
+
