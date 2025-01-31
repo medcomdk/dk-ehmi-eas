@@ -18,7 +18,7 @@ Description: "EER SOR HIOrganization Novax-lægehus SORID-672271000016003"
 * name = "Lægerne Skt. Clemens Bro"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#SI
 //* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
-* partOf = Reference(Organization/EER.SOR.IO-Novax.672261000016008)
+//* partOf = Reference(Organization/EER.SOR.IO-Novax.672261000016008)
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: EER-Org-Novax-SORID-672291000016004
@@ -30,7 +30,7 @@ Description: "EER SOR OUOrganization Novax-læge SORID-672291000016004"
 * name = "Lægerne Skt. Clemens Bro, Andreas Rosborg Kristensen"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE
 //* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
-* partOf = Reference(Organization/EER.SOR.HI-Novax.672271000016003)
+//* partOf = Reference(Organization/EER.SOR.HI-Novax.672271000016003)
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: EER-Org-Novax-SORID-672281000016001
@@ -42,7 +42,7 @@ Description: "EER SOR OUOrganization Novax-læge SORID-672281000016001"
 * name = "Lægerne Skt. Clemens Bro, Charlotte Melchior Bendtsen"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE
 //* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
-* partOf = Reference(Organization/EER.SOR.HI-Novax.672271000016003)
+//* partOf = Reference(Organization/EER.SOR.HI-Novax.672271000016003)
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: EER-EndPoint-Novax-GLNID-5790002288289

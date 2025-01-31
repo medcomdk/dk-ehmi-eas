@@ -9,13 +9,13 @@ Description: "An example instance of the EasMessagingOrganization with a require
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
-* telecom[0].system = #phone
-* telecom[0].value = "+123456789"
-* telecom[1].system = #email
-* telecom[1].value = "info@example.org"
-* address[0].line = "123 Example Street"
-* address[0].city = "Example City"
-* address[0].postalCode = "12345"
+//* telecom[0].system = #phone
+//* telecom[0].value = "+123456789"
+//* telecom[1].system = #email
+//* telecom[1].value = "info@example.org"
+//* address[0].line = "123 Example Street"
+//* address[0].city = "Example City"
+//* address[0].postalCode = "12345"
 * endpoint[0].reference = "Endpoint/example-endpoint2"
 
 Instance: ExampleEndpoint2

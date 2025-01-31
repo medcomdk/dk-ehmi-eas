@@ -10,7 +10,11 @@ Parent: EerMessagingOrganization
 Id: eas-messaging-organization
 Title: "EAS Messaging Organization"
 Description: "An extension of the EerMessagingOrganization profile with a required endpoint element."
-//* endpoint 1..* MS
+* alias 0..0
+* telecom 0..0
+* address 0..0
+* partOf 0..0
+* contact 0..0
 
 Profile: EasEndpoint
 Parent: EerEndpoint
