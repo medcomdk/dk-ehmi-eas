@@ -87,12 +87,10 @@ menu:
     Use case 4 - Get ReceivingOrganization by SORID: Use-case-4.html
     # Use case 5 - Get ReceivingOrganization by MessageType and Postalcode: Use-case-5.html
   Profiles: profiles.html
-#  Extensions: extensions.html
-  Artifacts: artifacts.html
   Security: 
-    Security-en: security-EAS-english.html
-    Security-da: security-EAS-danish.html
-#  Terminology: terminology.html
+    Security-en: security-eas-english.html
+    Security-da: security-eas-danish.html
+  Artifacts: artifacts.html
   More:
     Table of Contents: toc.html
     Downloads: downloads.html
