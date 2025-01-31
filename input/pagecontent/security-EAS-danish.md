@@ -36,3 +36,4 @@ Kald til EAS foretages som beskrevet i den generelle sikkerhedsmodel som REST-ka
 EAS adgangskontrol
 Sundhedsadresseringsservicen tjekker, at access tokenet er gyldigt og validerer ’sender-contrained’ egenskaben, det vil sige validerer, at det af klientens anvendte TLS-klientcertifikat matcher certifikatet som blev indlejret i access tokenet. 
 Servicen validerer desuden, at tokenet er udstedt til EAS som aftager af tokenet og indeholder de nødvendige scopes til at klienten må foretage opslag i EAS.
+
