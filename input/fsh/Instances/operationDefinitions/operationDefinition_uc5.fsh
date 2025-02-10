@@ -2,7 +2,7 @@
 InstanceOf: OperationDefinition
 Description: "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
 Usage: #definition
-* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/getReceivingOrganizationByMessageTypeAndPostalCode"
+* url = "http://medcomehmi.dk/ig/eas/OperationDefinition/getReceivingOrganizationByMessageTypeAndPostalCode"
 * version = "0.1.0"
 * name = "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
 * title = "EAS getReceivingOrganizationByMessageTypeAndPostalCode"
@@ -24,7 +24,7 @@ EAS will in order to produce this response run through a sequence of calls from"
 * type = false
 * instance = true
 * inputProfile = "string"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization"
+* outputProfile = "http://medcomehmi.dk/ig/eas/StructureDefinition/EasMessagingOrganization"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1

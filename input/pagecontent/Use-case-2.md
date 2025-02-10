@@ -17,11 +17,11 @@ This use case is conforming to this OperationDefinition:
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasCoreOrganization
+    http://medcomehmi.dk/ig/eas/StructureDefinition/EasCoreOrganization
     
     Output parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
+    http://medcomehmi.dk/ig/eas/StructureDefinition/EasMessagingOrganization
 
 # Important error use cases for use case 2
 

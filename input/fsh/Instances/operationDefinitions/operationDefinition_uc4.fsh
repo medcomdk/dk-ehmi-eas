@@ -2,7 +2,7 @@
 InstanceOf: OperationDefinition
 Description: "EAS getReceivingOrganizationBySORId"
 Usage: #definition
-* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/getReceivingOrganizationBySORId"
+* url = "http://medcomehmi.dk/ig/eas/OperationDefinition/getReceivingOrganizationBySORId"
 * version = "0.1.0"
 * name = "EAS-SikrGrp2-getReceivingOrganizationBySORId"
 * title = "EAS SikrGrp2 getReceivingOrganizationBySORId"
@@ -24,7 +24,7 @@ EAS will in order to produce this response run through a sequence of calls from"
 * type = false
 * instance = true
 * inputProfile = "string"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization"
+* outputProfile = "http://medcomehmi.dk/ig/eas/StructureDefinition/EasMessagingOrganization"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1

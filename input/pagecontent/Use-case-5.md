@@ -19,7 +19,7 @@ This use case is conforming to this OperationDefinition:
     
     Output parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasMessagingOrganization
+    http://medcomehmi.dk/ig/eas/StructureDefinition/EasMessagingOrganization
 
 
 # Important error use cases for use case 5

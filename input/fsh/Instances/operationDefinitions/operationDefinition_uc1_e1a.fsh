@@ -4,7 +4,7 @@ InstanceOf: OperationDefinition
 Description: "EAS SikrGrp1 getReceivingOrganizationByPatientId"
 Usage: #definition
 * id = "eas.SikrGrp1-getReceivingOrganizationByPatientId-error1a"
-* url = "http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByPatientId_error1a"
+* url = "http://medcomehmi.dk/ig/eas/OperationDefinition/eas_SikrGrp1_getReceivingOrganizationByPatientId_error1a"
 * version = "0.1.0"
 * name = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1a"
 * title = "EAS SikrGrp1 getReceivingOrganizationByPatientId - error1a"
@@ -25,8 +25,8 @@ EAS will in order to produce this response run through a sequence of calls from"
 * system = true
 * type = false
 * instance = true
-* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasCorePatient"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eas/StructureDefinition/EasOperationOutcome"
+* inputProfile = "http://medcomehmi.dk/ig/eas/StructureDefinition/EasCorePatient"
+* outputProfile = "http://medcomehmi.dk/ig/eas/StructureDefinition/EasOperationOutcome"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1
