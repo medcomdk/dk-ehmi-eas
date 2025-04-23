@@ -4,8 +4,8 @@ Title: "Example EasMessagingOrganization2"
 Description: "An example instance of the EasMessagingOrganization with a required endpoint.2"
 * id = "example-eas-messaging-organization2"
 * name = "Example EasMessagingOrganization"
-* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
@@ -24,6 +24,7 @@ Title: "Example EasMessagingEndpoint2"
 Description: "An example endpoint2 for an EasMessagingOrganization."
 * id = "example-endpoint2"
 * identifier.value = "543210987654321"
+* identifier.system = "https://www.gs1.org/gln"
 * status = #active
 * period.start = "2025-01-01"
 //* connectionType.code = #EerMessagingEdelivery

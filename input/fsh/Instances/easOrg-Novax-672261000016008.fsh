@@ -27,6 +27,7 @@ Description: "EER SOR OUOrganization Novax-læge SORID-672291000016004"
 * id = "EER.SOR.OU-Novax.672291000016004"
 //* identifier[SOR].value = "672291000016004"
 * identifier[SOR-ID].value = "672291000016004"
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Skt. Clemens Bro, Andreas Rosborg Kristensen"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE
 //* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
@@ -39,6 +40,7 @@ Description: "EER SOR OUOrganization Novax-læge SORID-672281000016001"
 * id = "EER.SOR.OU-Novax.672281000016001"
 //* identifier[SOR].value = "672281000016001"
 * identifier[SOR-ID].value = "672281000016001"
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Skt. Clemens Bro, Charlotte Melchior Bendtsen"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE
 //* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
@@ -50,6 +52,7 @@ InstanceOf: eer.dk.messaging.edelivery.fhir
 Description: "EER Messaging EndpointeDeliveryFhir Novax-læge GLNID-5790002288289"
 * id = "EER.EndPoint-Novax.GLNID-5790002288289"
 * identifier.value = "5790002288289"
+* identifier.system = "https://www.gs1.org/gln"
 //* identifier[SOR-ID].use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EER.SOR.HI-Novax.672271000016003)
