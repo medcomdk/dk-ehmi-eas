@@ -21,7 +21,7 @@ This use case is conforming to this OperationDefinition:
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/eas/StructureDefinition/easPatient
+    http://medcomehmi.dk/ig/eas/StructureDefinition/EasCorePatient
     
     Output parameters Profile:
 

@@ -17,7 +17,7 @@ This use case is conforming to this OperationDefinition:
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/eas/StructureDefinition/EasCoreOrganization
+    http://medcomehmi.dk/ig/eas/StructureDefinition/EasSorOrganization
     
     Output parameters Profile:
 
