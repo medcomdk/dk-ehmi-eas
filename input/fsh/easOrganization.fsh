@@ -10,6 +10,16 @@ Parent: EerMessagingOrganization
 Id: eas-messaging-organization
 Title: "EAS Messaging Organization"
 Description: "An extension of the EerMessagingOrganization profile with a required endpoint element."
+//* eua-system 0..0
+//* msh-system 0..0
+* name MS 
+* type[SOR-Hierarchy] MS
+* type[SOR-UnitType] MS
+* type[EerMessagingOrganizationType] 0..0
+* type[EerSorOrganizationType] 0..0
+* address.city MS
+* address.postalCode MS
+* endpoint MS
 
 Profile: EasEndpoint
 Parent: EerEndpoint
