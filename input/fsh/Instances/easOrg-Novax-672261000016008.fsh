@@ -4,6 +4,7 @@ Description: "[EerSOROrganization Novax-lægehus SORID-672261000016008](https://
 * id = "EER.SOR.IO-Novax.672261000016008"
 //* identifier[SOR].value = "672261000016008"
 * identifier[SOR-ID].value = "672261000016008"
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Skt. Clemens Bro I/S"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IE
 //* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
@@ -15,6 +16,7 @@ Description: "EER SOR HIOrganization Novax-lægehus SORID-672271000016003"
 * id = "EER.SOR.HI-Novax.672271000016003"
 //* identifier[SOR].value = "672271000016003"
 * identifier[SOR-ID].value = "672271000016003"
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Skt. Clemens Bro"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#SI
 //* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
