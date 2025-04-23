@@ -32,8 +32,7 @@ dependencies:
   dk.ehmi.terminology: current #1.0.0
   dk.ehmi.eer: current #1.0.0
 #
-#
-# The pages property corresponds to IG.definition.page. SUSHI can
+## The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
 # this file, it is assumed that the author will fully manage the
 # pages section and SUSHI will not generate any page entries.
