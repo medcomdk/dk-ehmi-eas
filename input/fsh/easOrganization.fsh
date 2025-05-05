@@ -13,13 +13,14 @@ Description: "An extension of the EerMessagingOrganization profile with a requir
 //* eua-system 0..0
 //* msh-system 0..0
 * name MS 
-* type[SOR-Hierarchy] MS
-* type[SOR-UnitType] MS
+* type[SOR-Hierarchy] MS SU 
+* type[SOR-UnitType] MS SU
 * type[EerMessagingOrganizationType] 0..0
 * type[EerSorOrganizationType] 0..0
-* address.city MS
-* address.postalCode MS
-* endpoint MS
+* address.line MS SU 
+* address.city MS SU 
+* address.postalCode MS SU 
+* endpoint MS SU
 
 Profile: EasEndpoint
 Parent: EerEndpoint
