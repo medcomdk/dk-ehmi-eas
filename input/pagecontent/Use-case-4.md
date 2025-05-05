@@ -13,7 +13,7 @@ This use case is conforming to this OperationDefinition:
 
     Generated Narrative: OperationDefinition eas.SikrGrp1-getReceivingOrganizationBySORId
 
-    URL: [base]/$getReceivingOrganizationBySORID/EasCoreOrganization?identifer=[SOR-identifer]&MessageType=[MessageType]
+    URL: [base]/$getReceivingOrganizationBySORID/EasSorOrganization?identifer=[SOR-identifer]&MessageType=[MessageType]
 
     Input parameters Profile:
 
