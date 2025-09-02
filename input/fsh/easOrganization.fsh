@@ -12,6 +12,8 @@ Title: "EAS Messaging Organization"
 Description: "An extension of the EerMessagingOrganization profile with a required endpoint element."
 //* eua-system 0..0
 //* msh-system 0..0
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
+* ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.3.0"
 * name MS 
 * type[SOR-Hierarchy] MS SU 
 * type[SOR-UnitType] MS SU
