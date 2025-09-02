@@ -19,15 +19,15 @@ Description: "An extension of the EerMessagingOrganization profile with a requir
 * name MS 
 * type[SOR-Hierarchy] MS SU 
 * type[SOR-UnitType] MS SU
-//* type[EerMessagingOrganizationType] 0..0
-//* type[EerSorOrganizationType] 0..0
+* type[EerMessagingOrganizationType] 0..0
+* type[EerSorOrganizationType] 0..0
 * address MS 
 * address.line MS SU 
 * address.city MS SU 
 * address.postalCode MS SU 
 * endpoint MS
-//* extension contains eer-dk-eua-system-extension named eua-system 0..0  
-//* extension contains eer-dk-msh-system-extension named msh-system 0..0  
+* extension contains eer-dk-eua-system-extension named eua-system 0..0  
+* extension contains eer-dk-msh-system-extension named msh-system 0..0  
 
 Profile: EasEndpoint
 Parent: EerEndpoint
