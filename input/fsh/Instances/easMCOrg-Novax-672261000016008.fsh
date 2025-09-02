@@ -1,3 +1,4 @@
+/*
 Instance: MC-Org-Novax-SORID-672261000016008
 InstanceOf: MedComCoreOrganization
 Description: "MedComCoreOrganization Novax-lægehus SORID-672261000016008"
@@ -48,4 +49,4 @@ Description: "MedComCoreOrganization Novax-læge SORID-672291000016001"
 * type.coding.system = "http://snomed.info/sct"
 * partOf = Reference(Organization/MC.SOR.HI-Novax.672271000016003)
 //* endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
-
+*/
