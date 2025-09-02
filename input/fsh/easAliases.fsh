@@ -1,6 +1,6 @@
 // EER Aliases
-Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-sor-organization-type
-Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/ehmi-sor-organization-type-valueset
+Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-sor-organization-type
+Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-sor-organization-type-valueset
 
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-message-definition-uri
 Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/ehmi-message-definition-uri-valueset
@@ -14,8 +14,8 @@ Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminolog
 
 //$EerMessagingOrganizationType
 /*
-Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-type
-Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-type-valueset
+Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-type
+Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-type-valueset
 
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/medcom-message-definition-uri
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-message-definition-uri
