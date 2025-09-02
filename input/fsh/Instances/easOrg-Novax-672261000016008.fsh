@@ -1,3 +1,4 @@
+/*
 Instance: EER-Org-Novax-SORID-672261000016008
 InstanceOf: EasMessagingOrganization
 Description: "[EerSOROrganization Novax-lægehus SORID-672261000016008](https://vhewer.com/?url=https://hapifhir.ehmi.medcom.t0.hosting.kitkube.dk/fhir/Organization?identifier=672261000016008)"
@@ -68,3 +69,4 @@ Description: "EER Messaging EndpointeDeliveryFhir Novax-læge GLNID-579000228828
 * payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0	
 * payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0
 * payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0
+*/
