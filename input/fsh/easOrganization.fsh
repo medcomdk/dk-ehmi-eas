@@ -18,7 +18,9 @@ Description: "An extension of the EerMessagingOrganization profile with a requir
 * ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.3.0"
 * name MS 
 * type[SOR-Hierarchy] MS SU 
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
 * type[SOR-UnitType] MS SU
+* type[SOR-UnitType].coding.system = $EerSorUnitType
 * type[EerMessagingOrganizationType] 0..0
 * type[EerSorOrganizationType] 0..0
 * address MS 
