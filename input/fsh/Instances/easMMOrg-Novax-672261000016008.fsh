@@ -1,3 +1,4 @@
+/*
 Instance: MM-Org-Novax-SORID-672261000016008
 InstanceOf: EasMessagingOrganization
 Description: "EAS MessagingOrganization Novax-lægehus SORID-672261000016008"
@@ -56,3 +57,4 @@ Description: "EAS MessagingOrganization Novax-læge SORID-672291000016001"
 * type.coding.system = "http://snomed.info/sct"
 //* partOf = Reference(Organization/MM.SOR.HI-Novax.672271000016003)
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
+*/
