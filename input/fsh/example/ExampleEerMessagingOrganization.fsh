@@ -1,3 +1,4 @@
+/*
 Instance: ExampleEerMessagingOrganization
 InstanceOf: EasMessagingOrganization
 Title: "Example EasMessagingOrganization"
@@ -38,3 +39,4 @@ Description: "An example endpoint for the EAS Messaging Organization."
 * payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0	
 * payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0
 * payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0
+*/
