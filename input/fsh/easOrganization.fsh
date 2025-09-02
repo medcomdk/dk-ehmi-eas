@@ -3,6 +3,8 @@ Parent: DkCoreOrganization
 Id: eas-sor-organization
 Title: "EAS SOR Organization"
 Description: "An extension of the DkCoreOrganization profile."
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
+* ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.3.0"
 * identifier[EAN-ID] 0..0
 
 Profile: EasMessagingOrganization
@@ -17,8 +19,8 @@ Description: "An extension of the EerMessagingOrganization profile with a requir
 * name MS 
 * type[SOR-Hierarchy] MS SU 
 * type[SOR-UnitType] MS SU
-* type[EerMessagingOrganizationType] 0..0
-* type[EerSorOrganizationType] 0..0
+//* type[EerMessagingOrganizationType] 0..0
+//* type[EerSorOrganizationType] 0..0
 * address MS 
 * address.line MS SU 
 * address.city MS SU 
