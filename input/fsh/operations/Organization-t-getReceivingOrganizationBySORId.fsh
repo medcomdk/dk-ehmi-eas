@@ -5,6 +5,7 @@ Look up SOR organizations based on SOR identifier and message types.
 """
 Usage: #definition
 * url = "http://medcomehmi.dk/ig/eas/OperationDefinition/GetReceivingOrganizationBySORId"
+* id = "GetReceivingOrganizationBySORId"
 * name = "GetReceivingOrganizationBySORId"
 * purpose = "Example request: <a href=\"Parameters-EX-GetReceivingOrganizationBySORId-Request.html\">EX-GetReceivingOrganizationBySORId-Request</a>"
 * status = #active
