@@ -5,6 +5,7 @@ Look up messaging organizations based on patient id (CPR) and message types.
 """
 Usage: #definition
 * url = "http://medcomehmi.dk/ig/eas/OperationDefinition/GetReceivingOrganizationByPatientId"
+* id = "GetReceivingOrganizationByPatientId"
 * name = "GetReceivingOrganizationByPatientId"
 * purpose = "Example request: <a href=\"Parameters-EX-GetReceivingOrganizationByPatientId-Request.html\">EX-GetReceivingOrganizationByPatientId-Request</a>"
 * status = #active

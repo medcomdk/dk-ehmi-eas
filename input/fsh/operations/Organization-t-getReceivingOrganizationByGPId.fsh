@@ -5,6 +5,7 @@ Look up messaging organizations based on general practitioner id (ydernr) and me
 """
 Usage: #definition
 * url = "http://medcomehmi.dk/ig/eas/OperationDefinition/GetReceivingOrganizationByGPId"
+* id = "GetReceivingOrganizationByGPId"
 * name = "GetReceivingOrganizationByGPId"
 * purpose = "Example request: <a href=\"Parameters-EX-GetReceivingOrganizationByGPId-Request.html\">EX-GetReceivingOrganizationByGPId-Request</a>"
 * status = #active

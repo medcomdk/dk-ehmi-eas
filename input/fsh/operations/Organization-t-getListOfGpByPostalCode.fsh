@@ -5,6 +5,7 @@ Look up messaging organizations based on postal codes and message types.
 """
 Usage: #definition
 * url = "http://medcomehmi.dk/ig/eas/OperationDefinition/GetListOfGpByPostalCode"
+* id = "GetListOfGpByPostalCode"
 * name = "GetListOfGpByPostalCode"
 * purpose = "Example request: <a href=\"Parameters-EX-GetListOfGpByPostalCode-Request.html\">EX-GetListOfGpByPostalCode-Request</a>"
 * status = #active
