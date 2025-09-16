@@ -18,7 +18,7 @@ Usage: #definition
 * parameter[0].name = #sorId
 * parameter[=].use = #in
 * parameter[=].min = 1
-* parameter[=].max = "1"
+* parameter[=].max = "*"
 * parameter[=].documentation = "SOR identifier"
 * parameter[=].type = #string
 * parameter[+].name = #messageType
