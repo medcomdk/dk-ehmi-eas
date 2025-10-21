@@ -20,7 +20,7 @@ Description: "An extension of the EerMessagingOrganization profile with a requir
 * address.line MS SU 
 * address.city MS SU 
 * address.postalCode MS SU 
-* endpoint MS
+* endpoint 1..* MS
 
 Profile: EasEndpoint
 Parent: EerEndpoint
