@@ -1,7 +1,10 @@
 Instance: GetReceivingOrganizationBySORId
 InstanceOf: OperationDefinition
 Description: """
-Look up SOR organizations based on SOR identifier and message types.
+Look up SOR organizations and referenced endpoints based on SOR identifier and message types.
+Response resources will be returned in a Bundle.<br/>
+Organizations conform to [EAS Messaging Organization](StructureDefinition-eas-messaging-organization.html)<br/>
+Endpoints conform to [EAS Endpoint - General](StructureDefinition-eas-endpoint.html)
 """
 Usage: #definition
 * url = "http://medcomehmi.dk/ig/eas/OperationDefinition/GetReceivingOrganizationBySORId"
@@ -28,13 +31,6 @@ Usage: #definition
 * parameter[=].max = "*"
 * parameter[=].documentation = "Message types"
 * parameter[=].type = #string
-* parameter[+].name = #organization
-* parameter[=].use = #out
-* parameter[=].min = 0
-* parameter[=].max = "*"
-* parameter[=].documentation = "Result organizations"
-* parameter[=].type = #Organization
-* parameter[=].targetProfile[+] = Canonical(http://medcomehmi.dk/ig/eas/StructureDefinition/eas-sor-organization)
 
 Instance: EX-GetReceivingOrganizationBySORId-Request
 InstanceOf: Parameters
@@ -43,8 +39,8 @@ Title: "Request for $getReceivingOrganizationBySORId (POST)"
 Description: "Invoke with POST [base]/Organization/$getReceivingOrganizationBySORId"
 
 * parameter[0].name = "sorId"
-* parameter[0].valueString = "12345678"
+* parameter[0].valueString = "1254731000016003"
 * parameter[+].name = "messageType"
-* parameter[=].valueString = "XDIS91"
+* parameter[=].valueString = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.1"
 * parameter[+].name = "messageType"
-* parameter[=].valueString = "XDIS92"
+* parameter[=].valueString = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0"
