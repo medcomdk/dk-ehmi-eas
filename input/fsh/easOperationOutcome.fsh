@@ -1,3 +1,0 @@
-Profile: EasOperationOutcome
-Parent: OperationOutcome
-

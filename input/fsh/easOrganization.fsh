@@ -10,8 +10,6 @@ Parent: EerMessagingOrganization
 Id: eas-messaging-organization
 Title: "EAS Messaging Organization"
 Description: "An extension of the EerMessagingOrganization profile with a required endpoint element."
-//* eua-system 0..0
-//* msh-system 0..0
 * name MS 
 * type[SOR-Hierarchy] MS SU 
 * type[SOR-UnitType] MS SU
@@ -39,12 +37,3 @@ Parent: EerEndpointMessagingEdelivery
 Id: eas.dk.endpoint.messaging.edelivery
 Title: "EAS Endpoint - EasEndpointMessagingEdelivery"
 Description: "An extension of the EerEndpoint profile with a required endpoint element."
-
-/*
-Profile: EasMedComCoreOrganization
-Parent: MedComCoreOrganization
-Id: eas-medcom-core-organization
-Title: "EAS MedCom Core Organization"
-Description: "An extension of the MedComCoreOrganization profile."
-* identifier[EAN-ID] 0..0
-*/
