@@ -7,16 +7,6 @@ Description: "An example instance of the EasMessagingOrganization with a require
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
-//* identifier[EAN-ID].system = "https://www.gs1.org/gln"
-//* identifier[EAN-ID].value = "5790000121526"
-//* telecom[0].system = #phone
-//* telecom[0].value = "+123456789"
-//* telecom[1].system = #email
-//* telecom[1].value = "info@example.org"
-//* address[0].line = "123 Example Street"
-//* address[0].city = "Example City"
-//* address[0].postalCode = "12345"
-//* endpoint[0].reference = "Endpoint/example-endpoint"
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: ExampleEndpoint
