@@ -2,7 +2,6 @@ Profile: EasCorePatient
 Parent: DkCorePatient
 Description: "EasCorePatient version of DkCorePatient"
 
-
 Instance: EasCorePatient-instance
 InstanceOf: EasCorePatient
 * identifier.value = "0108589995"
