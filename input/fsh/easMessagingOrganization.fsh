@@ -4,7 +4,6 @@ Id: eas-messaging-organization
 Title: "EAS Messaging Organization"
 Description: "An extension of the EerMessagingOrganization profile with a required endpoint element."
 * name MS 
-* type[SOR-Hierarchy] MS SU 
 * type[SOR-UnitType] MS SU
 * address
   * line MS SU 

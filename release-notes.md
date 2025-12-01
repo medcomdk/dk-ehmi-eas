@@ -2,4 +2,4 @@
 - Remove EasEndpoint in favor of EEREndpoint
 - Removed type[EerMessagingOrganizationType] and type[EerSorOrganizationType] on EasMessagingOrganization
 - Aliases in examples all pointed to /dk-ehmi-terminology/ canonical url's rather than just /terminology/
-- 
+- Examples of EasMessagingOrganization have had a required slice 'type[SOR-Hierarchy]' which weren't properly set. It has been resolved. The examples pointed to snomed codes but have changed to an EER valueset

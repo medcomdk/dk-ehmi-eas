@@ -1,5 +1,4 @@
-Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-sor-organization-type
-Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-sor-organization-type-valueset
+Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
 
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-message-definition-uri
 Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-message-definition-uri-valueset
