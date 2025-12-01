@@ -1,15 +1,17 @@
 {
     "package-id": "dk.ehmi.eas",
-    "version": "1.0.0",
-    "path": "http://medcomehmi.dk/ig/eas/1.0.0",
+    "version": "2.0.0",
+    "path": "http://medcomehmi.dk/ig/eas/2.0.0",
     "status": "release",
-    "sequence": "Release",
+    "sequence": "Release 2.x.x",
     "first" : true,
     "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-ehmi-eas",
-    "milestone" : true,
+    "mode": "milestone",
     "title": "EHMI Addressing Service (EAS)",
-    "category": "EHMI",
+    // TODO: Change this category
+    "category": "EHMI", 
     "introduction": "EHMI Addressing Service (EAS)",
-    "descmd": "@release-notes.md"
+    "descmd": "@release-notes.md",
+    "desc": "See release notes"
 }
 

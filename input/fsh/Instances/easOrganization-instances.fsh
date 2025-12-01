@@ -10,7 +10,7 @@ Description: "An example instance of the EasMessagingOrganization with a require
 * endpoint[0].reference = "Endpoint/example-endpoint2"
 
 Instance: ExampleEndpoint2
-InstanceOf: EerEndpointMessagingEdelivery
+InstanceOf: EerEndpointMessaging
 Title: "Example EasMessagingEndpoint2"
 Description: "An example endpoint2 for an EasMessagingOrganization."
 * id = "example-endpoint2"
@@ -21,6 +21,7 @@ Description: "An example endpoint2 for an EasMessagingOrganization."
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eas-messaging-organization"
 * address = "https://example.org/fhir"
+* connectionType = $EerEndpointConnectionType#EerMessagingEdelivery
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json

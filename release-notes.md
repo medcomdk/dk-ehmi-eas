@@ -1,0 +1,5 @@
+- Bump terminology to 1.8.1 to fix dependency URL from file://C:\Users\TMS\TMS\GitHub\MedComPublication\dk-medcom-terminology\output to a proper url
+- Remove EasEndpoint in favor of EEREndpoint
+- Removed type[EerMessagingOrganizationType] and type[EerSorOrganizationType] on EasMessagingOrganization
+- Aliases in examples all pointed to /dk-ehmi-terminology/ canonical url's rather than just /terminology/
+- 
