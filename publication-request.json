@@ -8,7 +8,6 @@
     "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-ehmi-eas",
     "mode": "milestone",
     "title": "EHMI Addressing Service (EAS)",
-    // TODO: Change this category
     "category": "EHMI", 
     "introduction": "EHMI Addressing Service (EAS)",
     "descmd": "@release-notes.md",

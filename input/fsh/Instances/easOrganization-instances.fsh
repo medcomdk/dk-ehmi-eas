@@ -14,7 +14,7 @@ InstanceOf: EerEndpointMessaging
 Title: "Example EasMessagingEndpoint2"
 Description: "An example endpoint2 for an EasMessagingOrganization."
 * id = "example-endpoint2"
-* identifier.value = "5432109876543"
+* identifier.value = "5790002288289"
 * identifier.system = "https://www.gs1.org/gln"
 * status = #active
 * period.start = "2025-01-01"
