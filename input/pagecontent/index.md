@@ -36,4 +36,4 @@ In the first version of EAS it will expose the following searches for clients in
 
 The calls for EAS are always produced in a security context. 
 
-[The calls for EAS are described here](security-EAS-english.html)
+[The calls for EAS are described here](security-english.html)

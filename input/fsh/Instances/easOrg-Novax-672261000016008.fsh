@@ -39,12 +39,13 @@ Description: "EER SOR OUOrganization Novax-læge SORID-672281000016001"
 * endpoint[+] = Reference(Endpoint/EER.EndPoint-Novax.GLNID-5790002288289)
 
 Instance: EER-EndPoint-Novax-GLNID-5790002288289
-InstanceOf: eer.dk.messaging.edelivery.fhir
+InstanceOf: EerEndpointMessaging
 Description: "EER Messaging EndpointeDeliveryFhir Novax-læge GLNID-5790002288289"
 * id = "EER.EndPoint-Novax.GLNID-5790002288289"
 * identifier.value = "5790002288289"
 * identifier.system = "https://www.gs1.org/gln"
 * status = #active
+* connectionType = $EerEndpointConnectionType#EerMessagingEdeliveryFhir
 * managingOrganization = Reference(Organization/EER.SOR.HI-Novax.672271000016003)
 * period.start = "2025-01-01"
 * period.end = "2027-01-01"

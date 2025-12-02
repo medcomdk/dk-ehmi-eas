@@ -6,21 +6,22 @@ Description: "An example instance of the EasMessagingOrganization with a require
 * name = "Example EasMessagingOrganization"
 * identifier[SOR-ID].value = "543210987654321"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
-* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
-* endpoint[0].reference = "Endpoint/example-endpoint2"
+* type[SOR-Hierarchy] = $EerMessagingOrganizationType#OU
+* endpoint[0] = Reference(ExampleEndpoint2)
 
 Instance: ExampleEndpoint2
-InstanceOf: EerEndpointMessagingEdelivery
+InstanceOf: EerEndpointMessaging
 Title: "Example EasMessagingEndpoint2"
 Description: "An example endpoint2 for an EasMessagingOrganization."
 * id = "example-endpoint2"
-* identifier.value = "543210987654321"
+* identifier.value = "5790002288289"
 * identifier.system = "https://www.gs1.org/gln"
 * status = #active
 * period.start = "2025-01-01"
 * name = "Example FHIR Endpoint"
-* managingOrganization.reference = "Organization/example-eas-messaging-organization"
+* managingOrganization = Reference(ExampleEasMessagingOrganization2)
 * address = "https://example.org/fhir"
+* connectionType = $EerEndpointConnectionType#EerMessagingEdelivery
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json

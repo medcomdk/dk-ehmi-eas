@@ -16,7 +16,7 @@ publisher:
 dependencies:
   hl7.fhir.dk.core: 3.3.0
   medcom.fhir.dk.core: 2.4.0
-  medcom.fhir.dk.terminology: 1.8.0
+  medcom.fhir.dk.terminology: 1.8.1
   dk.ehmi.terminology: current
   dk.ehmi.eer: current
 
