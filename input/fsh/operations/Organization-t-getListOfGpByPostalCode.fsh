@@ -1,7 +1,10 @@
 Instance: GetListOfGpByPostalCode
 InstanceOf: OperationDefinition
 Description: """
-Look up general practitioner sor organizations based on postal codes.
+Look up messaging organizations and referenced endpoints based on postal codes.
+Response resources will be returned in a Bundle.<br/>
+Organizations conform to [EAS Messaging Organization](StructureDefinition-eas-messaging-organization.html)<br/>
+Endpoints conform to [EAS Endpoint - General](StructureDefinition-eas-endpoint.html)
 """
 Usage: #definition
 * url = "http://medcomehmi.dk/ig/eas/OperationDefinition/GetListOfGpByPostalCode"
@@ -22,13 +25,6 @@ Usage: #definition
 * parameter[=].max = "*"
 * parameter[=].documentation = "Postal codes"
 * parameter[=].type = #string
-* parameter[+].name = #organization
-* parameter[=].use = #out
-* parameter[=].min = 0
-* parameter[=].max = "*"
-* parameter[=].documentation = "Result organizations"
-* parameter[=].type = #Organization
-* parameter[=].targetProfile[+] = Canonical(http://medcomehmi.dk/ig/eas/StructureDefinition/eas-sor-organization)
 
 Instance: EX-GetListOfGpByPostalCode-Request
 InstanceOf: Parameters
